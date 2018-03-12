@@ -1,0 +1,9 @@
+variables:
+  PROJECT_PATH: "/html-data/$CLIENT_ID/$PROJECT_ID"
+
+build and deploy:
+  image: pixel2html/node-npm-cache:8
+  script:
+    - bash /custom-binaries/html-deploy.sh $(pwd)
+  only:
+    - master
