@@ -1,0 +1,48 @@
+@import '../abstracts/index';
+
+.header {
+  position: relative;
+  padding-top: 42px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.normal-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  li + li {
+    margin-left: 30px;
+  }
+
+  a {
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 600;
+    color: $cool-gray;
+  }
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 40px;
+
+  li + li {
+    margin-left: 24px;
+  }
+}

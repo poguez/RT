@@ -1,22 +1,23 @@
-header
-  a(href="/" title="Otoy")
++h('header', 'home.menu.header')
+  +h('a', 'home.menu.logo')(href="/" title="Otoy")
     +svg('logo')
   .container
-    ul
-      li: a(href="#") About
-      li: a(href="#") Render Token
-      li: a(href="#") The Problem
-      li: a(href="#") Team & Advisors
-      li: a(href="#") Token Sale
-      li: a(href="#") Roadmap
+    div(css-module='home.menu.row')
+      ul(css-module='home.menu.normal-links')
+        li: a(href="#") About
+        li: a(href="#") Render Token
+        li: a(href="#") The Problem
+        li: a(href="#") Team & Advisors
+        li: a(href="#") Token Sale
+        li: a(href="#") Roadmap
 
-    ul
-      li: a(href="#"): +svg('twitter')
-      li: a(href="#"): +svg('facebook')
-      li: a(href="#"): +svg('telegram')
-      li: a(href="#"): +svg('reddit')
-      li: a(href="#"): +svg('medium')
+      ul(css-module='home.menu.social')
+        li: a(href="#"): +svg('twitter')
+        li: a(href="#"): +svg('facebook')
+        li: a(href="#"): +svg('telegram')
+        li: a(href="#"): +svg('reddit')
+        li: a(href="#"): +svg('medium')
 
-    a(href="#" title="Launch Rocket Chat")
-      +svg('rocket')
-      span Launch Rocket Chat
+      a(href="#" title="Launch Rocket Chat")
+        +svg('rocket')
+        span Launch Rocket Chat

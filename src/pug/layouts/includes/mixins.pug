@@ -1,10 +1,9 @@
 //- In honor of loved hyperscript daddy of React and Friends
 //- https://github.com/hyperhype/hyperscript
 mixin h(htmlElement, module)
-  #{htmlElement}(css-module=module)
+  #{htmlElement}(css-module=module)&attributes(attributes)
     if block
       block
-
 //- Thanks WesBos!
 mixin svg(filename)
   !=icon(filename)
