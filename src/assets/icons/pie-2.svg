@@ -1,0 +1,555 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <path id="pie-2-a" d="M37.1528165,36.3577996 C30.3475687,41.2046251 22.8391463,45.1281655 14.8103501,47.9456203 C13.9313652,48.2540726 11.7014566,47.1304623 11.4747228,46.2802106 C9.09629468,37.3611051 5.58152738,24.1807277 0.930420935,6.73907851 C0.714000567,5.92750213 1.76099237,3.70282678 2.48957729,3.3868804 C4.19886353,2.6456589 5.85186725,1.79910302 7.44039933,0.855401901 C8.31983049,0.332957198 11.3883709,0.83965809 12.0735443,1.65941909 C17.8609816,8.58367439 26.3883132,18.7860176 37.6555392,32.2664487 C38.2881084,33.0232726 37.9718887,35.774441 37.1528165,36.3577996 Z"/>
+    <path id="pie-2-c" d="M54.8584056,154.100407 C49.0694032,147.198135 40.5585559,137.050586 29.3258638,123.657761 C28.6133339,122.808206 28.6324966,119.534371 29.328626,118.727472 C35.9787054,111.019212 40,100.979218 40,90 C40,68.1631448 24.0924499,50.0416969 3.23340987,46.5917165 C2.16803667,46.4155091 6.32090782e-14,44.1011318 6.16071992e-14,43.0620117 C4.7669291e-14,34.0206542 2.71335579e-14,20.6993651 0,3.09814453 C-1.52626965e-15,2.10807132 2.13018811,0.199271649 3.18772509,0.282836043 C49.5327915,3.94492775 86,42.7137774 86,90 C86,115.109625 75.717145,137.81756 59.1327368,154.142503 C58.3597281,154.903418 55.4966179,154.861352 54.8584056,154.100407 Z"/>
+    <path id="pie-2-e" d="M45.0298255,46.391037 C39.5154354,47.4471342 33.8222821,48 28,48 C18.9606805,48 10.2326099,46.6673848 2.00153088,44.1878971 C1.18779068,43.9427702 0.255517876,41.6394148 0.589377395,40.7662437 C6.98585427,24.0369965 11.823883,11.3836907 15.1034635,2.80632628 C15.4158598,1.9892898 17.7194399,0.801461198 18.5731236,0.98780576 C21.610073,1.65071994 24.7642471,2 28,2 C29.6985214,2 31.3745643,1.90375788 33.0229728,1.71642946 C33.8728945,1.61984267 35.9540086,2.87460388 36.156017,3.63454015 C38.5510133,12.644288 42.0945821,25.9748566 46.7867236,43.626246 C46.9865938,44.3781388 45.8211425,46.2394867 45.0298255,46.391037 Z"/>
+    <path id="pie-2-g" d="M51.7756505,105.502997 C21.1821955,91.1299886 0,60.0386777 0,24 C0,16.7360101 0.860565123,9.67301592 2.48530577,2.90740711 C2.71766008,1.93985679 5.21604854,0.674222796 6.20958617,0.999692022 C14.8064561,3.81590803 27.4745221,7.96579174 44.2137843,13.4493431 C45.1481069,13.7554143 46.6414841,16.3998422 46.4875225,17.4278444 C46.1664152,19.5718792 46,21.7665054 46,24 C46,40.4411742 55.0175543,54.7761857 68.3765758,62.3289472 C69.0840425,62.7289262 69.9463235,65.0159007 69.6520808,65.788288 C66.3548589,74.4434955 61.4828678,87.232472 55.0361077,104.155217 C54.7338154,104.948735 52.5507378,105.867138 51.7756505,105.502997 Z"/>
+    <path id="pie-2-i" d="M0.753416987,55.7325333 C13.3898823,25.0677798 42.4766781,2.91533028 77.0225537,0.266467966 C78.0106554,0.190703629 80,2.08167171 80,3.07885742 C80,12.1296528 80,25.4568012 80,43.0603027 C80,44.0854887 78.008592,46.3931909 77.0285045,46.5492103 C62.9143176,48.7960374 51.0373453,57.7546182 44.7717593,70.0507811 C44.3383064,70.901429 41.7357966,72.0615813 40.827153,71.7676083 C32.1642918,68.9649179 19.3975429,64.8344992 2.52690632,59.376352 C1.59150186,59.0737212 0.382275902,56.6331768 0.753416987,55.7325333 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(105 127)">
+      <mask id="pie-2-b" fill="#fff">
+        <use xlink:href="#pie-2-a"/>
+      </mask>
+      <use fill="#5A2637" xlink:href="#pie-2-a"/>
+      <g stroke-linecap="square" mask="url(#pie-2-b)">
+        <g transform="translate(0 40)">
+          <g transform="translate(5 3)">
+            <path stroke="#7A374D" stroke-width="2" d="M20 .5C20 1.88071187 21.1192881 3 22.5 3 23.8807119 3 25 1.88071187 25 .5M30 .5C30 1.88071187 31.1192881 3 32.5 3 33.8807119 3 35 1.88071187 35 .5M0 .5C0 1.88071187 1.11928813 3 2.5 3 3.88071187 3 5 1.88071187 5 .5M10 .5C10 1.88071187 11.1192881 3 12.5 3 13.8807119 3 15 1.88071187 15 .5"/>
+          </g>
+          <path stroke="#7A374D" stroke-width="2" d="M35 2.5C35 1.11928813 33.8807119 0 32.5 0 31.1192881 0 30 1.11928813 30 2.5M15 2.5C15 1.11928813 13.8807119 0 12.5 0 11.1192881 0 10 1.11928813 10 2.5M25 2.5C25 1.11928813 23.8807119 0 22.5 0 21.1192881 0 20 1.11928813 20 2.5M5 2.5C5 1.11928813 3.88071187 0 2.5 0 1.11928813 0 0 1.11928813 0 2.5"/>
+        </g>
+      </g>
+      <g stroke-linecap="square" mask="url(#pie-2-b)">
+        <g transform="translate(0 30)">
+          <g transform="translate(5 3)">
+            <path stroke="#7A374D" stroke-width="2" d="M20 .5C20 1.88071187 21.1192881 3 22.5 3 23.8807119 3 25 1.88071187 25 .5M30 .5C30 1.88071187 31.1192881 3 32.5 3 33.8807119 3 35 1.88071187 35 .5M0 .5C0 1.88071187 1.11928813 3 2.5 3 3.88071187 3 5 1.88071187 5 .5M10 .5C10 1.88071187 11.1192881 3 12.5 3 13.8807119 3 15 1.88071187 15 .5"/>
+          </g>
+          <path stroke="#7A374D" stroke-width="2" d="M35 2.5C35 1.11928813 33.8807119 0 32.5 0 31.1192881 0 30 1.11928813 30 2.5M15 2.5C15 1.11928813 13.8807119 0 12.5 0 11.1192881 0 10 1.11928813 10 2.5M25 2.5C25 1.11928813 23.8807119 0 22.5 0 21.1192881 0 20 1.11928813 20 2.5M5 2.5C5 1.11928813 3.88071187 0 2.5 0 1.11928813 0 0 1.11928813 0 2.5"/>
+        </g>
+      </g>
+      <g stroke-linecap="square" mask="url(#pie-2-b)">
+        <g transform="translate(0 20)">
+          <g transform="translate(5 3)">
+            <path stroke="#7A374D" stroke-width="2" d="M20 .5C20 1.88071187 21.1192881 3 22.5 3 23.8807119 3 25 1.88071187 25 .5M30 .5C30 1.88071187 31.1192881 3 32.5 3 33.8807119 3 35 1.88071187 35 .5M0 .5C0 1.88071187 1.11928813 3 2.5 3 3.88071187 3 5 1.88071187 5 .5M10 .5C10 1.88071187 11.1192881 3 12.5 3 13.8807119 3 15 1.88071187 15 .5"/>
+          </g>
+          <path stroke="#7A374D" stroke-width="2" d="M35 2.5C35 1.11928813 33.8807119 0 32.5 0 31.1192881 0 30 1.11928813 30 2.5M15 2.5C15 1.11928813 13.8807119 0 12.5 0 11.1192881 0 10 1.11928813 10 2.5M25 2.5C25 1.11928813 23.8807119 0 22.5 0 21.1192881 0 20 1.11928813 20 2.5M5 2.5C5 1.11928813 3.88071187 0 2.5 0 1.11928813 0 0 1.11928813 0 2.5"/>
+        </g>
+      </g>
+      <g stroke-linecap="square" mask="url(#pie-2-b)">
+        <g transform="translate(0 10)">
+          <g transform="translate(5 3)">
+            <path stroke="#7A374D" stroke-width="2" d="M20 .5C20 1.88071187 21.1192881 3 22.5 3 23.8807119 3 25 1.88071187 25 .5M30 .5C30 1.88071187 31.1192881 3 32.5 3 33.8807119 3 35 1.88071187 35 .5M0 .5C0 1.88071187 1.11928813 3 2.5 3 3.88071187 3 5 1.88071187 5 .5M10 .5C10 1.88071187 11.1192881 3 12.5 3 13.8807119 3 15 1.88071187 15 .5"/>
+          </g>
+          <path stroke="#7A374D" stroke-width="2" d="M35 2.5C35 1.11928813 33.8807119 0 32.5 0 31.1192881 0 30 1.11928813 30 2.5M15 2.5C15 1.11928813 13.8807119 0 12.5 0 11.1192881 0 10 1.11928813 10 2.5M25 2.5C25 1.11928813 23.8807119 0 22.5 0 21.1192881 0 20 1.11928813 20 2.5M5 2.5C5 1.11928813 3.88071187 0 2.5 0 1.11928813 0 0 1.11928813 0 2.5"/>
+        </g>
+      </g>
+      <g stroke="#7A374D" stroke-linecap="square" stroke-width="2" mask="url(#pie-2-b)">
+        <g transform="translate(5 3)">
+          <path d="M20 .5C20 1.88071187 21.1192881 3 22.5 3 23.8807119 3 25 1.88071187 25 .5M30 .5C30 1.88071187 31.1192881 3 32.5 3 33.8807119 3 35 1.88071187 35 .5M0 .5C0 1.88071187 1.11928813 3 2.5 3 3.88071187 3 5 1.88071187 5 .5M10 .5C10 1.88071187 11.1192881 3 12.5 3 13.8807119 3 15 1.88071187 15 .5"/>
+        </g>
+        <path d="M35 2.5C35 1.11928813 33.8807119 0 32.5 0 31.1192881 0 30 1.11928813 30 2.5M15 2.5C15 1.11928813 13.8807119 0 12.5 0 11.1192881 0 10 1.11928813 10 2.5M25 2.5C25 1.11928813 23.8807119 0 22.5 0 21.1192881 0 20 1.11928813 20 2.5M5 2.5C5 1.11928813 3.88071187 0 2.5 0 1.11928813 0 0 1.11928813 0 2.5"/>
+      </g>
+    </g>
+    <g transform="translate(94)">
+      <mask id="pie-2-d" fill="#fff">
+        <use xlink:href="#pie-2-c"/>
+      </mask>
+      <use fill="#352936" xlink:href="#pie-2-c"/>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(14 141)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(14 121)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(14 141)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(14 121)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(14 101)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(14 81)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(14 101)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(14 81)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(-10 61)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(-10 41)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(-10 61)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(-10 41)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(-10 21)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(-10 1)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(-10 21)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" mask="url(#pie-2-d)">
+        <g transform="translate(-10 1)">
+          <g transform="translate(0 10)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+          <g transform="translate(6)">
+            <polyline stroke="#4F3D51" stroke-width="2" points="36 3 39 0 42 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="48 3 51 0 54 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="60 3 63 0 66 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="72 3 75 0 78 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="84 3 87 0 90 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="0 3 3 0 6 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="12 3 15 0 18 3"/>
+            <polyline stroke="#4F3D51" stroke-width="2" points="24 3 27 0 30 3"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(62 132)">
+      <mask id="pie-2-f" fill="#fff">
+        <use xlink:href="#pie-2-e"/>
+      </mask>
+      <use fill="#812138" xlink:href="#pie-2-e"/>
+      <g fill="#611527" mask="url(#pie-2-f)">
+        <g transform="translate(-18 43)">
+          <circle cx="32" cy="2" r="2"/>
+          <circle cx="22" cy="2" r="2"/>
+          <circle cx="12" cy="2" r="2"/>
+          <circle cx="2" cy="2" r="2"/>
+          <circle cx="42" cy="2" r="2"/>
+          <circle cx="52" cy="2" r="2"/>
+          <circle cx="62" cy="2" r="2"/>
+          <circle cx="72" cy="2" r="2"/>
+        </g>
+      </g>
+      <g fill="#611527" mask="url(#pie-2-f)">
+        <g transform="translate(-13 35)">
+          <circle cx="32" cy="2" r="2"/>
+          <circle cx="22" cy="2" r="2"/>
+          <circle cx="12" cy="2" r="2"/>
+          <circle cx="2" cy="2" r="2"/>
+          <circle cx="42" cy="2" r="2"/>
+          <circle cx="52" cy="2" r="2"/>
+          <circle cx="62" cy="2" r="2"/>
+          <circle cx="72" cy="2" r="2"/>
+        </g>
+      </g>
+      <g fill="#611527" mask="url(#pie-2-f)">
+        <g transform="translate(-28 27)">
+          <circle cx="72" cy="2" r="2"/>
+          <circle cx="82" cy="2" r="2"/>
+          <circle cx="62" cy="2" r="2"/>
+          <circle cx="52" cy="2" r="2"/>
+          <circle cx="42" cy="2" r="2"/>
+          <circle cx="32" cy="2" r="2"/>
+          <circle cx="22" cy="2" r="2"/>
+          <circle cx="12" cy="2" r="2"/>
+          <circle cx="2" cy="2" r="2"/>
+        </g>
+      </g>
+      <g fill="#611527" mask="url(#pie-2-f)">
+        <g transform="translate(-23 19)">
+          <circle cx="32" cy="2" r="2"/>
+          <circle cx="22" cy="2" r="2"/>
+          <circle cx="12" cy="2" r="2"/>
+          <circle cx="2" cy="2" r="2"/>
+          <circle cx="42" cy="2" r="2"/>
+          <circle cx="52" cy="2" r="2"/>
+          <circle cx="62" cy="2" r="2"/>
+          <circle cx="72" cy="2" r="2"/>
+        </g>
+      </g>
+      <g fill="#611527" mask="url(#pie-2-f)">
+        <g transform="translate(-18 11)">
+          <circle cx="32" cy="2" r="2"/>
+          <circle cx="22" cy="2" r="2"/>
+          <circle cx="12" cy="2" r="2"/>
+          <circle cx="2" cy="2" r="2"/>
+          <circle cx="42" cy="2" r="2"/>
+          <circle cx="52" cy="2" r="2"/>
+          <circle cx="62" cy="2" r="2"/>
+          <circle cx="72" cy="2" r="2"/>
+        </g>
+      </g>
+      <g fill="#611527" mask="url(#pie-2-f)">
+        <g transform="translate(-23 3)">
+          <circle cx="32" cy="2" r="2"/>
+          <circle cx="22" cy="2" r="2"/>
+          <circle cx="12" cy="2" r="2"/>
+          <circle cx="2" cy="2" r="2"/>
+          <circle cx="42" cy="2" r="2"/>
+          <circle cx="52" cy="2" r="2"/>
+          <circle cx="62" cy="2" r="2"/>
+          <circle cx="72" cy="2" r="2"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(0 66)">
+      <mask id="pie-2-h" fill="#fff">
+        <use xlink:href="#pie-2-g"/>
+      </mask>
+      <use fill="#C71E40" xlink:href="#pie-2-g"/>
+      <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-2-h)">
+        <g transform="translate(-18 102)">
+          <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M22 3L25 0M36 3L33 0"/>
+        </g>
+      </g>
+      <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-2-h)">
+        <g transform="translate(-7 91)">
+          <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+        </g>
+      </g>
+      <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-2-h)">
+        <g transform="translate(4 80)">
+          <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+        </g>
+      </g>
+      <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-2-h)">
+        <g transform="translate(-7 69)">
+          <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+        </g>
+      </g>
+      <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-2-h)">
+        <g transform="translate(4 58)">
+          <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+        </g>
+      </g>
+      <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-2-h)">
+        <g transform="translate(-7 47)">
+          <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+        </g>
+      </g>
+      <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-2-h)">
+        <g transform="translate(-18 36)">
+          <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M22 3L25 0M36 3L33 0"/>
+        </g>
+      </g>
+      <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-2-h)">
+        <g transform="translate(-7 25)">
+          <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+        </g>
+      </g>
+      <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-2-h)">
+        <g transform="translate(-18 14)">
+          <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M22 3L25 0M36 3L33 0"/>
+        </g>
+      </g>
+      <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-2-h)">
+        <g transform="translate(-29 3)">
+          <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M36 3L33 0"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(6)">
+      <mask id="pie-2-j" fill="#fff">
+        <use xlink:href="#pie-2-i"/>
+      </mask>
+      <use fill="#E62249" xlink:href="#pie-2-i"/>
+      <path stroke="#CE1C3F" stroke-width="2.4" d="M-18 34L47 99M-18 24L47 89M-18 14L47 79M-18 4L47 69M-8 4L57 69M2 4L67 69M2-6L67 59M12-6L77 59M22-6L87 59M32-6L97 59M42-6L107 59M52-6L117 59M62-6L127 59M72-6L137 59" mask="url(#pie-2-j)"/>
+    </g>
+  </g>
+</svg>

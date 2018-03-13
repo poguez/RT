@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <rect id="drm-a" width="26" height="36" x="8" y="8" rx="7.5"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="52" height="52" opacity=".05" rx="5"/>
+    <g stroke="#242B35" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(1 1)">
+      <path d="M9 50L9 50C4.02943725 50 6.08718376e-16 45.9705627 0 41M50 41L50 41C50 45.9705627 45.9705627 50 41 50M41 0L41 0C45.9705627-9.13077564e-16 50 4.02943725 50 9M0 9L0 9C-6.08718376e-16 4.02943725 4.02943725 9.13077564e-16 9 0"/>
+    </g>
+    <rect width="26" height="30" x="17" y="11" stroke="#242B35" stroke-width="2" rx="7.5"/>
+    <rect width="14" height="2" x="24" y="24" fill="#242B35" rx="1"/>
+    <rect width="13" height="2" x="24" y="29" fill="#242B35" rx="1"/>
+    <rect width="14" height="2" x="24" y="34" fill="#242B35" rx="1"/>
+    <path fill="#E62249" d="M32,15 L37.1893398,15 C37.6035534,15 37.9393398,15.3357864 37.9393398,15.75 C37.9393398,15.9489124 37.8603222,16.1396778 37.7196699,16.2803301 L36.7071068,17.2928932 C36.3165825,17.6834175 36.3165825,18.3165825 36.7071068,18.7071068 L37.7196699,19.7196699 C38.0125631,20.0125631 38.0125631,20.4874369 37.7196699,20.7803301 C37.5790176,20.9209824 37.3882522,21 37.1893398,21 L32,21 L32,15 Z"/>
+    <use fill="#FFF" xlink:href="#drm-a"/>
+    <rect width="24" height="34" x="9" y="9" stroke="#242B35" stroke-width="2" rx="7.5"/>
+    <path stroke="#E62249" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M23,16 L20.8505115,18.5793862 C20.6737294,18.7915247 20.3584471,18.8201867 20.1463086,18.6434047 C20.1346988,18.6337299 20.1235336,18.6235336 20.1128474,18.6128474 L19,17.5"/>
+    <g fill="#242B35" transform="translate(14 24)">
+      <rect width="14" height="2" rx="1"/>
+      <rect width="12" height="2" y="5" rx="1"/>
+      <rect width="6" height="2" y="10" rx="1"/>
+    </g>
+    <g stroke="#E62249" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(22 33)">
+      <path d="M3.5 3.5L.5.5M3.5.5L.5 3.5"/>
+    </g>
+  </g>
+</svg>

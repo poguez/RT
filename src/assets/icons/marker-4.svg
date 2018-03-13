@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <rect id="marker-4-a" width="20" height="20" rx="3"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="marker-4-b" fill="#fff">
+      <use xlink:href="#marker-4-a"/>
+    </mask>
+    <use fill="#5A2637" xlink:href="#marker-4-a"/>
+    <g mask="url(#marker-4-b)">
+      <g transform="translate(-11 3)">
+        <g transform="translate(7 3)">
+          <path stroke="#7A374D" stroke-width="2" d="M16 0C16 1.1045695 16.8954305 2 18 2 19.1045695 2 20 1.1045695 20 0M8 0C8 1.1045695 8.8954305 2 10 2 11.1045695 2 12 1.1045695 12 0"/>
+        </g>
+        <path stroke="#7A374D" stroke-width="2" d="M31 3C31 1.61928813 30.1045695.5 29 .5 27.8954305.5 27 1.61928813 27 3M15 3C15 1.61928813 14.1045695.5 13 .5 11.8954305.5 11 1.61928813 11 3M23 3C23 1.61928813 22.1045695.5 21 .5 19.8954305.5 19 1.61928813 19 3"/>
+      </g>
+    </g>
+    <g mask="url(#marker-4-b)">
+      <g transform="translate(-11 11.5)">
+        <g transform="translate(7 3)">
+          <path stroke="#7A374D" stroke-width="2" d="M16 0C16 1.1045695 16.8954305 2 18 2 19.1045695 2 20 1.1045695 20 0M8 0C8 1.1045695 8.8954305 2 10 2 11.1045695 2 12 1.1045695 12 0"/>
+        </g>
+        <path stroke="#7A374D" stroke-width="2" d="M31 3C31 1.61928813 30.1045695.5 29 .5 27.8954305.5 27 1.61928813 27 3M15 3C15 1.61928813 14.1045695.5 13 .5 11.8954305.5 11 1.61928813 11 3M23 3C23 1.61928813 22.1045695.5 21 .5 19.8954305.5 19 1.61928813 19 3"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <rect id="efficiency-b" width="16" height="16" x="32" y="12" rx="8"/>
+    <filter id="efficiency-a" width="146.9%" height="146.9%" x="-23.4%" y="-23.4%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+    </filter>
+    <path id="efficiency-d" d="M1,16 C7.9954834,16 7.99853516,10 12,10 C15.9959717,10 15.9959717,14 20,14 C23.0013021,14 27.0013021,10 32,2"/>
+    <filter id="efficiency-c" width="145.2%" height="200%" x="-22.6%" y="-50%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="3" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feMorphology in="SourceAlpha" radius="3" result="shadowInner"/>
+      <feOffset in="shadowInner" result="shadowInner"/>
+      <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="52" height="52" opacity=".05" rx="5"/>
+    <g stroke="#242B35" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(1 1)">
+      <path d="M9 50L9 50C4.02943725 50 6.08718376e-16 45.9705627 0 41M50 41L50 41C50 45.9705627 45.9705627 50 41 50M41 0L41 0C45.9705627-9.13077564e-16 50 4.02943725 50 9M0 9L0 9C-6.08718376e-16 4.02943725 4.02943725 9.13077564e-16 9 0"/>
+    </g>
+    <rect width="34" height="34" x="9" y="9" stroke="#242B35" stroke-width="2" rx="17"/>
+    <use fill="#000" filter="url(#efficiency-a)" xlink:href="#efficiency-b"/>
+    <use fill="#FFF" xlink:href="#efficiency-b"/>
+    <rect width="14" height="14" x="33" y="13" stroke="#242B35" stroke-width="2" rx="7"/>
+    <g stroke-linecap="round" stroke-linejoin="round" transform="translate(8 18)">
+      <use fill="#000" filter="url(#efficiency-c)" xlink:href="#efficiency-d"/>
+      <use stroke="#E62249" stroke-width="2" xlink:href="#efficiency-d"/>
+      <path stroke="#E62249" stroke-width="2" d="M30.1030104,1 L32.6030104,1 C32.8791528,1 33.1030104,1.22385763 33.1030104,1.5 L33.1030104,4" transform="rotate(-17 31.603 2.5)"/>
+    </g>
+  </g>
+</svg>
