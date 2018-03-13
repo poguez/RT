@@ -32,6 +32,10 @@
     line-height: 28px;
     font-weight: 600;
     color: $cool-gray;
+
+    .source-sans-pro & {
+      font-family: $source;
+    }
   }
 }
 
