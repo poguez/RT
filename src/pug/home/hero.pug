@@ -1,14 +1,14 @@
-section.home-hero
+section(css-module="home.hero.background")
   .container
-    .row
-      .large
+    +h('div', 'home.hero.row')
+      +h('div', 'home.hero.large')
         +svg('rndr')
         h6 OTOY's render token for
         h1 Distributed GPU rendering in the blockchain
 
-      .large
-        ul
-          li: a.active(href="#") Whitepaper
+      +h('div', 'home.hero.large')
+        +h('ul', 'home.hero.menu')
+          li: a(href="#") Whitepaper
           li: a(href="#") English
           li: a(href="#") 简体中文
           li: a(href="#") 한국어

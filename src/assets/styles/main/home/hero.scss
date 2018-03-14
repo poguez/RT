@@ -1,12 +1,42 @@
 @import '../abstracts/_index';
 
-:global {
-  .home-hero {
-    padding-top: 135px;
-    padding-bottom: 72px;
-    @include std-background;
-    background-position: bottom;
-    background-image: url('../images/hero.png');
-    min-height: 760px;
+.background {
+  padding-top: 135px;
+  padding-bottom: 72px;
+  @include std-background;
+  background-position: bottom;
+  background-image: url('../images/hero.png');
+  min-height: 760px;
+}
+
+.row {
+  display: flex;
+}
+
+.large {
+  @include flex-cols(5);
+}
+
+.small {
+  margin-left: auto;
+  @include flex-cols(5);
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 42px;
+  font-size: 14px;
+  line-height: 28px;
+
+  li {
+    &:first-child {
+      font-weight: 700;
+      margin-right: 40px;
+    }
+    &:nth-child(n+2) {
+      margin-left: 18px;
+      color: $cool-gray;
+    }
   }
 }
