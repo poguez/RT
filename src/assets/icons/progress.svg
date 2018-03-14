@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="388" height="100" viewBox="0 0 388 100">
+  <defs>
+    <linearGradient id="progress-a" x1="100%" x2="0%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#B61D3B"/>
+      <stop offset="100%" stop-color="#E62249"/>
+    </linearGradient>
+    <rect id="progress-c" width="2" height="64" x="288" rx="1"/>
+    <filter id="progress-b" width="800%" height="121.9%" x="-350%" y="-7.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.450980392   0 0 0 0 0.521568627   0 0 0 0 0.623529412  0 0 0 0.16 0"/>
+    </filter>
+    <rect id="progress-e" width="2" height="64" x="98" rx="1"/>
+    <filter id="progress-d" width="800%" height="121.9%" x="-350%" y="-7.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.450980392   0 0 0 0 0.521568627   0 0 0 0 0.623529412  0 0 0 0.16 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 2)">
+    <g fill="#242B35" font-family="Source Sans Pro" font-size="12" font-weight="bold" transform="translate(21 70)">
+      <text>
+        <tspan x="281.974" y="12">Community</tspan> <tspan x="301.678" y="27">Sale</tspan>
+      </text>
+      <text>
+        <tspan x="154.01" y="12">Private</tspan> <tspan x="161.678" y="27">Sale</tspan>
+      </text>
+      <text>
+        <tspan x="12.552" y="12">Genesis</tspan> <tspan x="21.678" y="27">Sale</tspan>
+      </text>
+    </g>
+    <rect width="388" height="52" y="6" fill="#537987" fill-opacity=".1" rx="26"/>
+    <rect width="368" height="32" x="10" y="16" fill="#FFF" opacity=".406" rx="16"/>
+    <path fill="url(#progress-a)" d="M26,16 L288,16 L288,48 L26,48 C17.163444,48 10,40.836556 10,32 L10,32 C10,23.163444 17.163444,16 26,16 Z"/>
+    <text fill="#FFF" font-family="Source Sans Pro" font-size="15" font-weight="700">
+      <tspan x="165.68" y="35">Ongoing</tspan>
+    </text>
+    <text fill="#FFF" font-family="Source Sans Pro" font-size="15" font-weight="700">
+      <tspan x="30.225" y="35">4K ETH</tspan>
+    </text>
+    <use fill="#000" filter="url(#progress-b)" xlink:href="#progress-c"/>
+    <use fill="#242B35" xlink:href="#progress-c"/>
+    <g>
+      <use fill="#000" filter="url(#progress-d)" xlink:href="#progress-e"/>
+      <use fill="#242B35" xlink:href="#progress-e"/>
+    </g>
+  </g>
+</svg>
