@@ -1,5 +1,12 @@
 @import '../abstracts/_index';
 
-.background {
-  background-image: linear-gradient(-225deg, #E2E7EE 0%, #CCD5E2 50%, #E9F0FB 100%);
+:global {
+  .home-hero {
+    padding-top: 135px;
+    padding-bottom: 72px;
+    @include std-background;
+    background-position: bottom;
+    background-image: url('../images/hero.png');
+    min-height: 760px;
+  }
 }

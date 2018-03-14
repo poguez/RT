@@ -1,2 +1,17 @@
-+h('section', 'home.hero.background')
-  include menu
+section.home-hero
+  .container
+    .row
+      .large
+        +svg('rndr')
+        h6 OTOY's render token for
+        h1 Distributed GPU rendering in the blockchain
+
+      .large
+        ul
+          li: a.active(href="#") Whitepaper
+          li: a(href="#") English
+          li: a(href="#") 简体中文
+          li: a(href="#") 한국어
+          li: a(href="#") Русский
+
+        include newsletter

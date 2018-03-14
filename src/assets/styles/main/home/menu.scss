@@ -1,7 +1,10 @@
 @import '../abstracts/index';
 
 .header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding-top: 42px;
 }
 
@@ -32,10 +35,6 @@
     line-height: 28px;
     font-weight: 600;
     color: $cool-gray;
-
-    .source-sans-pro & {
-      font-family: $source;
-    }
   }
 }
 

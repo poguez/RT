@@ -1,0 +1,9 @@
+form(css-module="home.newsletter.form")
+  h4(css-module="home.newsletter.title") Subscribe to #RNDR.
+  p(css-module="home.newsletter.text") Subscribe to our email list to receive news and updates.
+
+  label.sr-only(for='email') Enter your email address
+  input#email(type='email' placeholder='Enter your email address')
+  button(type='submit')
+    span.sr-only Submit
+    +svg('arrow-right')
