@@ -2,9 +2,10 @@ section(css-module="home.hero.background")
   .container
     div(css-module="home.hero.row")
       div(css-module="home.hero.large")
-        +svg('rndr')
-        h6 OTOY's render token for
-        h1 Distributed GPU rendering in the blockchain
+        div(css-module='home.hero.rndr')
+          +svg('rndr')
+        h6(css-module="home.hero.subtitle") OTOY's render token for
+        h1(css-module="home.hero.title") Distributed GPU rendering in the blockchain
 
       div(css-module="home.hero.small")
         ul(css-module="home.hero.menu")

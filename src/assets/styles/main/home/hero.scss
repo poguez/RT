@@ -14,7 +14,11 @@
 }
 
 .large {
-  @include flex-cols(5);
+  @include flex-cols(5.5);
+}
+
+.rndr {
+  margin-bottom: 24px;
 }
 
 .small {
@@ -39,4 +43,20 @@
       color: $cool-gray;
     }
   }
+}
+
+.subtitle {
+  font-family: $lato;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 26px;
+  color: $cool-gray;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-family: $lato;
+  font-weight: 900;
+  font-size: 41px;
+  line-height: 67px;
 }
