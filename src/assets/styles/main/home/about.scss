@@ -1,0 +1,59 @@
+@import '../abstracts/index';
+
+.wrapper {
+  padding-top: 100px;
+  padding-bottom: 116px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 54px;
+
+  h3 {
+    margin-right: 15px;
+    font-family: $lato;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+
+.row {
+  display: flex;
+  margin: 0 -30px 70px;
+}
+
+.column {
+  padding: 0 30px;
+  flex-basis: 50%;
+  max-width: 50%;
+
+  p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  p + p {
+    margin-top: 40px;
+  }
+}
+
+.summary {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 2px;
+}
+
+.dash {
+  margin-bottom: 13px;
+}
+
+.divider {
+  margin-bottom: 70px;
+  svg {
+    width: 100%;
+  }
+}

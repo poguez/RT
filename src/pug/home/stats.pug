@@ -1,0 +1,30 @@
+mixin service({icon, title, subtitle})
+  div(css-module='home.stats.service')
+    div(css-module='home.stats.icon')
+      +svg(icon)
+    div
+      h4(css-module='home.stats.title')= title
+      p(css-module='home.stats.subtitle')= subtitle
+
+
+div(css-module='home.stats.row')
+  +service({
+    icon: 'xyrs',
+    title: '+X yrs',
+    subtitle: 'Rendering Experience'
+  })
+  +service({
+    icon: 'xk',
+    title: '+Xk',
+    subtitle: 'Octane Render users'
+  })
+  +service({
+    icon: 'orc',
+    title: '+Xk',
+    subtitle: 'ORC users'
+  })
+  +service({
+    icon: 'squarish',
+    title: '+Xk',
+    subtitle: 'ORC renders'
+  })
