@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g fill="none" fill-rule="evenodd" stroke="#8493A8" stroke-width="2">
+    <circle cx="14" cy="14" r="13" opacity=".2"/>
+    <g class="arrow" stroke-linecap="round" transform="translate(11 10)">
+      <path d="M3,2 L3,8"/>
+      <polyline stroke-linejoin="round" points="0 3 3 0 6 3"/>
+    </g>
+  </g>
+</svg>
