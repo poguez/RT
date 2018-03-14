@@ -1,7 +1,6 @@
 @import '../abstracts/_index';
 
 .background {
-  padding-top: 135px;
   padding-bottom: 72px;
   @include std-background;
   background-position: bottom;
