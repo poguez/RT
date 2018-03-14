@@ -11,6 +11,7 @@
 
 .row {
   display: flex;
+  margin: 0 -($column-gutter / 2);
 }
 
 .large {
@@ -23,7 +24,9 @@
 
 .small {
   margin-left: auto;
-  @include flex-cols(5);
+  flex-basis: 450px;
+  max-width: 450px;
+  padding: 0 ($column-gutter / 2);
 }
 
 .menu {
