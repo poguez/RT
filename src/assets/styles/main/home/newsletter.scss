@@ -20,6 +20,45 @@
 .text {
   font-size: 15px;
   line-height: 28px;
-  color: #8493A8;
+  color: $cool-gray;
   margin-bottom: 31px;
+}
+
+.input {
+  position: relative;
+  padding-right: 20px;
+
+  input {
+    @include reset-input;
+    border-radius: 5px;
+    background: $snow;
+    padding: 17px 24px;
+    font-size: 18px;
+    line-height: 23px;
+    color: $black;
+    display: block;
+    width: 100%;
+    @include placeholder {
+      font-size: 18px;
+      line-height: 23px;
+      color: $cool-gray;
+    }
+  }
+
+  button[type='submit'] {
+    @include reset-btn;
+    @include size(42px);
+    @include align(vertical);
+    right: 0;
+    background: $red;
+    border-radius: 50%;
+    color: $white;
+
+    svg {
+      @include align;
+      [stroke] {
+        stroke: $white;
+      }
+    }
+  }
 }
