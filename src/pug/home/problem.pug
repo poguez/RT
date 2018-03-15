@@ -1,0 +1,42 @@
+mixin problem({icon, title, copy, img})
+  div
+    if img
+      +img(img)
+    else
+      +svg(icon)
+    h3= title
+    p= copy
+
+#problem
+  .container
+    h6 The Problem
+    div
+      div
+        h4 Our visual world is evolving at breakneck speed.
+      div
+        +svg('dash-vertical')
+        p Authoring and publishing state-of-the-art graphics is an immense challenge that is growing each day. The future demand for advanced rendering will imply even more complexity, higher resolution and more interactivity.
+
+    +svg('divider')
+
+    div
+      +problem({
+        icon: 'scale',
+        title: 'Ecosystem Scalability',
+        copy: "Scaling GPU rendering power it’s too difficult. Rendering locally, on a network, or even in the cloud, implies that you eventually hit the wall. It’s impossible to leverage all the GPUs in the world efficiently without some sort of decentralized system that allows to be tracked and managed."
+      })
+      +problem({
+        icon: 'gpu',
+        title: 'The Missing GPU Network',
+        copy: "GPUs are now a standard component on every phone and PC as the most efficient rendering hardware. However, the current system harbors many inefficiencies. Most developers’ GPUs remain idle when they are not rendering their own work."
+      })
+      +problem({
+        img: 'efficiency.png',
+        title: 'Mining Efficiency',
+        copy: "Proof-of-Work in inherently inefficient, leveraging GPU power to solve arbitrary hash functions in order to power the network. We envision a future where GPUs are used for the work that they were designed for, eventually basing this process as the underlying protocol that will power the RNDR network."
+      })
+      +problem({
+        icon: 'drm',
+        title: 'Digital Rights Management',
+        copy: "There is no secure universal storage location for artists to store their work and know that it is theirs. Through the blockchain and the ledger-based storage protocol of the RNDR network, artists are able to store and access their designs and creations."
+      })
