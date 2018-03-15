@@ -1,24 +1,27 @@
 mixin sector({icon, name})
-  div
-    div
+  div(css-module='home.how.sector')
+    div(css-module='home.how.sector-icon')
       +svg(icon)
-    div
+    div(css-module='home.how.sector-name')
       p= name
 
 #how(css-module='home.how.wrapper')
   .container-1060
-    h6 How It Works
-    h4 The Render Ecosystem
-    p RNDR will be the first network to transform the power of GPU compute into a decentralized economy of connected 3D assets.
+    div(css-module='home.how.intro')
+      h6 How It Works
+      h4 The Render Ecosystem
+      p RNDR will be the first network to transform the power of GPU compute into a decentralized economy of connected 3D assets.
 
-    +svg('infographic')
+    div(css-module='home.how.infographic')
+      +svg('infographic')
 
-    p Ethereum’s widespread adoption was the key to realizing our vision. Instead of GPUs being used to only mine currencies, we use their intrinsic function to render and leverage the features of the blockchain: network, incentives and trust.
+    div(css-module='home.how.copy')
+      p Ethereum’s widespread adoption was the key to realizing our vision. Instead of GPUs being used to only mine currencies, we use their intrinsic function to render and leverage the features of the blockchain: network, incentives and trust.
 
-    div
-      div
+    div(css-module='home.how.row')
+      div(css-module='home.how.sectors')
         h5 Sectors transformed by RNDR
-      div
+      div(css-module='home.how.icons')
         +sector({
           icon: 'media',
           name: 'Media'
