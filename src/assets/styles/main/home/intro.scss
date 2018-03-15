@@ -1,0 +1,31 @@
+@import '../abstracts/index';
+
+.wrapper {
+  background: $snow;
+  position: relative;
+}
+
+.container {
+  width: 95%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 ($column-gutter / 2);
+}
+
+.row {
+  display: flex;
+  margin: 0 ($column-gutter / -2);
+}
+
+.small-col {
+  padding: 0 ($column-gutter / 2);
+  max-width: percentage(4/12);
+  flex-basis: percentage(4/12);
+}
+
+.large-col {
+  padding: 0 ($column-gutter / 2);
+  max-width: percentage(7/12);
+  flex-basis: percentage(7/12);
+  margin-left: auto;
+}

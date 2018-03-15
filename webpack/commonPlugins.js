@@ -11,7 +11,25 @@ let common = [
   }),
   // Do NOT import the BLOAT from moment.js
   // thanks create-react-app
-  new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
+  new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+  new webpack.BannerPlugin({
+    banner: `
+/*!***************************************************
+*  ##      ##    ###    ########  ##    ## #### ##    ##  ######   ####
+*  ##  ##  ##   ## ##   ##     ## ###   ##  ##  ###   ## ##    ##  ####
+*  ##  ##  ##  ##   ##  ##     ## ####  ##  ##  ####  ## ##        ####
+*  ##  ##  ## ##     ## ########  ## ## ##  ##  ## ## ## ##   ####  ##
+*  ##  ##  ## ######### ##   ##   ##  ####  ##  ##  #### ##    ##
+*  ##  ##  ## ##     ## ##    ##  ##   ###  ##  ##   ### ##    ##  ####
+*  ###  ###  ##     ## ##     ## ##    ## #### ##    ##  ######   ####
+*
+*  Don't edit this file directly. Edit with Webpack.
+*
+*  Scaffolded with @pixel2html/generator-frontend
+ *****************************************************/
+`,
+    raw: true
+  })
 ]
 
 module.exports = common
