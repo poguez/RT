@@ -1,0 +1,375 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="326" viewBox="0 0 280 326">
+  <defs>
+    <rect id="pie-1-full-a" width="20" height="20" rx="3"/>
+    <rect id="pie-1-full-c" width="20" height="20" rx="3"/>
+    <rect id="pie-1-full-e" width="20" height="20" rx="3"/>
+    <path id="pie-1-full-g" d="M58.5436479,38.2347696 C50.7834068,46.1682401 46,57.0255078 46,69 C46,86.0231407 55.6672397,100.788377 69.8112909,108.10528 C70.7196635,108.575193 71.9387992,111.428498 71.619816,112.410967 C66.1939081,129.122763 62.0857428,141.775912 59.2953202,150.370414 C58.9806644,151.339554 56.3554144,152.507392 55.3705578,152.09649 C22.8540796,138.52997 0,106.433913 0,69 C0,41.8462365 12.0252285,17.5011156 31.0407428,0.999580127 C31.9473846,0.212802431 35.1461771,0.526285969 35.8001541,1.42195022 C46.0151041,15.4119905 53.7555282,26.013006 59.0214262,33.2249968 C59.6770424,34.1229059 59.3286832,37.4322101 58.5436479,38.2347696 Z"/>
+    <path id="pie-1-full-i" d="M2.00558875,13.2287172 C13.8178446,5.98257236 27.4309053,1.38614637 42.0173706,0.266865279 C43.0071843,0.190912694 45,2.03125668 45,3.00323486 C45,12.0949531 45,25.4942248 45,43.2010498 C45,44.1806402 42.9978708,46.3945299 42.0125983,46.5517454 C37.3753058,47.2916975 32.9797121,48.7562101 28.9455319,50.8255685 C28.091394,51.263704 25.3133229,50.680819 24.7535552,49.9111384 C19.3895422,42.5356205 11.4800229,31.6600315 1.02499736,17.2843714 C0.464356808,16.5134906 1.10005748,13.784209 2.00558875,13.2287172 Z"/>
+    <path id="pie-1-full-k" d="M17.0102573,133.447881 C19.2866431,133.81124 21.6212779,134 24,134 C48.300529,134 68,114.300529 68,90 C68,68.0849461 51.9783148,49.9119574 31.0091288,46.5552179 C30.016775,46.3963623 28,44.1806403 28,43.1812744 C28,34.0986557 28,20.7089055 28,3.01202393 C28,2.0498477 30.0227187,0.192717692 31.0272802,0.270301359 C77.4485982,3.85548354 114,42.6592231 114,90 C114,139.705627 73.7056275,180 24,180 C16.7389414,180 9.6787164,179.140129 2.9155979,177.516661 C1.91543671,177.276575 0.561824804,174.808905 0.875277837,173.84005 C3.66615651,165.213698 7.77975871,152.498928 13.2160844,135.695739 C13.5149427,134.771995 16.037381,133.29259 17.0102573,133.447881 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(0 225)">
+      <g transform="translate(0 76)">
+        <text fill="#242B35" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="18">
+          <tspan x="32" y="19">Render Token Reserve</tspan>
+        </text>
+        <text fill="#242B35" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="19" font-weight="bold">
+          <tspan x="246.886" y="19">35</tspan> <tspan x="266.95" y="19" font-family="SourceSansPro-Black, Source Sans Pro" font-size="15" font-weight="700">%</tspan>
+        </text>
+        <g transform="translate(0 5)">
+          <mask id="pie-1-full-b" fill="#fff">
+            <use xlink:href="#pie-1-full-a"/>
+          </mask>
+          <use fill="#812138" xlink:href="#pie-1-full-a"/>
+          <circle cx="5" cy="15" r="2" fill="#611527" mask="url(#pie-1-full-b)"/>
+          <circle cx="15" cy="15" r="2" fill="#611527" mask="url(#pie-1-full-b)"/>
+          <circle cx="10" cy="10" r="2" fill="#611527" mask="url(#pie-1-full-b)"/>
+          <circle cx="5" cy="5" r="2" fill="#611527" mask="url(#pie-1-full-b)"/>
+          <circle cx="15" cy="5" r="2" fill="#611527" mask="url(#pie-1-full-b)"/>
+        </g>
+      </g>
+      <g transform="translate(0 38)">
+        <text fill="#242B35" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="18">
+          <tspan x="32" y="19">Token Sale Purchasers</tspan>
+        </text>
+        <text fill="#242B35" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="19" font-weight="bold">
+          <tspan x="246.886" y="19">55</tspan> <tspan x="266.95" y="19" font-family="SourceSansPro-Black, Source Sans Pro" font-size="15" font-weight="700">%</tspan>
+        </text>
+        <g transform="translate(0 5)">
+          <mask id="pie-1-full-d" fill="#fff">
+            <use xlink:href="#pie-1-full-c"/>
+          </mask>
+          <use fill="#C71E40" xlink:href="#pie-1-full-c"/>
+          <path stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" d="M4.5 15.5L7.5 12.5M15.5 15.5L12.5 12.5M12.5 7.5L15.5 4.5M7.5 7.5L4.5 4.5" mask="url(#pie-1-full-d)"/>
+        </g>
+      </g>
+      <text fill="#242B35" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="18">
+        <tspan x="32" y="19">Team &amp; Advisors</tspan>
+      </text>
+      <text fill="#242B35" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="19" font-weight="bold">
+        <tspan x="246.886" y="19">10</tspan> <tspan x="266.95" y="19" font-family="SourceSansPro-Black, Source Sans Pro" font-size="15" font-weight="700">%</tspan>
+      </text>
+      <g transform="translate(0 5)">
+        <mask id="pie-1-full-f" fill="#fff">
+          <use xlink:href="#pie-1-full-e"/>
+        </mask>
+        <use fill="#E62249" xlink:href="#pie-1-full-e"/>
+        <path stroke="#CE1C3F" stroke-width="2.4" d="M-2 8L12 22M0 0L20 20M8-2L22 12" mask="url(#pie-1-full-f)"/>
+      </g>
+    </g>
+    <g transform="translate(50)">
+      <g transform="translate(0 21)">
+        <mask id="pie-1-full-h" fill="#fff">
+          <use xlink:href="#pie-1-full-g"/>
+        </mask>
+        <use fill="#812138" xlink:href="#pie-1-full-g"/>
+        <g mask="url(#pie-1-full-h)">
+          <g transform="translate(-19)">
+            <g transform="translate(5 152)">
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+              <circle cx="82" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(10 144)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(15 136)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(10 128)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(15 120)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(0 112)">
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+              <circle cx="82" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(5 104)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(10 96)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(5 88)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(10 80)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(5 72)">
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+              <circle cx="82" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(10 64)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(15 56)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(10 48)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(15 40)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(0 32)">
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+              <circle cx="82" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(5 24)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(10 16)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(5 8)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+            <g transform="translate(10)">
+              <circle cx="32" cy="2" r="2" fill="#611527"/>
+              <circle cx="22" cy="2" r="2" fill="#611527"/>
+              <circle cx="12" cy="2" r="2" fill="#611527"/>
+              <circle cx="2" cy="2" r="2" fill="#611527"/>
+              <circle cx="42" cy="2" r="2" fill="#611527"/>
+              <circle cx="52" cy="2" r="2" fill="#611527"/>
+              <circle cx="62" cy="2" r="2" fill="#611527"/>
+              <circle cx="72" cy="2" r="2" fill="#611527"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(41)">
+        <mask id="pie-1-full-j" fill="#fff">
+          <use xlink:href="#pie-1-full-i"/>
+        </mask>
+        <use fill="#E62249" xlink:href="#pie-1-full-i"/>
+        <path stroke="#CE1C3F" stroke-width="2.4" d="M-16 5L49 70M-16-5L49 60M-16-15L49 50M-16-25L49 40M-16-35L49 30M-16-45L49 20M-16-55L49 10" mask="url(#pie-1-full-j)"/>
+      </g>
+      <g transform="translate(66)">
+        <mask id="pie-1-full-l" fill="#fff">
+          <use xlink:href="#pie-1-full-k"/>
+        </mask>
+        <use fill="#C71E40" xlink:href="#pie-1-full-k"/>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(-28 182)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(-17 171)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(-6 160)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(5 149)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(16 138)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(27 127)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(38 116)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(49 105)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(38 94)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(49 83)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(38 72)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(27 61)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(38 50)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(27 39)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(16 28)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(5 17)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+        <g stroke="#A4223C" stroke-linecap="round" stroke-width="2.4" mask="url(#pie-1-full-l)">
+          <g transform="translate(16 6)">
+            <path d="M44 3L47 0M58 3L55 0M66 3L69 0M80 3L77 0M0 3L3 0M14 3L11 0M22 3L25 0M36 3L33 0"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
