@@ -1,0 +1,45 @@
+mixin advisor({img, name, title})
+  div
+    if img
+      +img(img)
+    else
+      +svg('avatar')
+    h4= name
+    p= title
+
+div
+  +advisor({
+    img: 'ari.png',
+    name: 'Ari Emanuel',
+    title: 'Co-Founder & Co-CEO @ WME IMG'
+  })
+  +advisor({
+    name: 'J.J. Abrams',
+    title: 'Chairman & CEO @ Bad Robot Productions'
+  })
+  +advisor({
+    img: 'brendan.png',
+    name: 'Brendan Eich',
+    title: 'Founder & CEO @ Brave Software & BAT'
+  })
+  +advisor({
+    img: 'george.png',
+    name: 'George Gilder',
+    title: 'Founder & Partner @ Gilder Technology Fund'
+  })
+  +advisor({
+    name: 'Jennifer Zhu Scott',
+    title: 'Principal @ Radian & Council Member @ WEF'
+  })
+  +advisor({
+    name: 'Demian Brener',
+    title: 'Co-Founder & CEO @ Zeppelin Solutions'
+  })
+  +advisor({
+    name: 'Manuel Araoz',
+    title: 'CTO @ Zeppelin Solutions & Partner @ INB'
+  })
+  +advisor({
+    name: 'Ari Meilich',
+    title: 'CEO & Project Lead @ Decentraland'
+  })

@@ -1,0 +1,30 @@
+mixin commie({img, name, title})
+  div
+    if img
+      +img(img)
+    else
+      +svg('avatar-round')
+    h4= name
+    p= title
+
+div
+  +commie({
+    name: 'Patrick Frigg',
+    title: 'Moderator'
+  })
+  +commie({
+    name: 'Janne Saviranta',
+    title: 'Moderator'
+  })
+  +commie({
+    name: 'Tony Morella',
+    title: 'Moderator'
+  })
+  +commie({
+    name: 'Julio Alvarez',
+    title: 'Moderator'
+  })
+  +commie({
+    name: 'Pablo Wilner',
+    title: 'Moderator'
+  })

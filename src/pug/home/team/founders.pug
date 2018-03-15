@@ -1,0 +1,25 @@
+mixin vip({img, name, title, extra, supreme})
+  div
+    if img
+      +img(img)
+    else
+      +svg('avatar')
+    h4= name
+    h5= title
+    h6= extra
+
+div
+  +vip({
+    img: 'jules.png',
+    name: 'Jules Urbach',
+    title: 'CEO',
+    extra: 'Co-Founder @ OTOY',
+    supreme: true
+  })
+  +vip({
+    img: 'alissa.png',
+    name: 'Alissa Grainer',
+    title: 'President',
+    extra: 'Co-Founder @ OTOY',
+    supreme: true
+  })
