@@ -16,4 +16,12 @@
     margin: 0 auto;
     padding: 0 ($column-gutter / 2);
   }
+
+  .container-940 {
+    position: relative;
+    width: 95%;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 ($column-gutter / 2);
+  }
 }

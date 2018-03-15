@@ -1,13 +1,14 @@
 mixin commie({img, name, title})
-  div
-    if img
-      +img(img)
-    else
-      +svg('avatar-round')
-    h4= name
-    p= title
+  div(css-module='team.core.core')
+    button
+      if img
+        +img(img)
+      else
+        +svg('avatar-round')
+      h4= name
+      p= title
 
-div
+div(css-module='team.core.row')
   +commie({
     name: 'Patrick Frigg',
     title: 'Moderator'
