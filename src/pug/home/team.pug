@@ -1,11 +1,11 @@
-section#team
+section#team(css-module='home.team.wrapper')
   .container-1060
-    h6 Team
-    h4 Meet the founders & our advisors
+    h6(css-module='home.team.title') Team
+    h4(css-module='home.team.meet') Meet the founders & our advisors
     include team/founders
     include team/advisors
 
-    h4 And the core team.
+    h4(css-module='home.team.subtitle') And the core team.
     include team/core
-    h4 People handling community outrearch.
+    h4(css-module='home.team.subtitle') People handling community outrearch.
     include team/commies

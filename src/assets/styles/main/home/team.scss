@@ -1,0 +1,31 @@
+@import '../abstracts/index';
+
+.wrapper {
+  padding: 115px 0;
+  text-align: center;
+}
+
+.title {
+  font-family: $lato;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+
+.meet {
+  max-width: 320px;
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 600;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subtitle {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
