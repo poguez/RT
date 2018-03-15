@@ -21,6 +21,9 @@
   padding: 0 ($column-gutter / 2);
   max-width: percentage(4/12);
   flex-basis: percentage(4/12);
+
+  display: flex;
+  flex-direction: column;
 }
 
 .large-col {
@@ -28,4 +31,79 @@
   max-width: percentage(7/12);
   flex-basis: percentage(7/12);
   margin-left: auto;
+}
+
+.intro {
+  padding-top: 115px;
+  margin-bottom: 88px;
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+
+  h6 {
+    font-family: $lato;
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 700;
+    margin-bottom: 33px;
+  }
+
+  h4 {
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 29px;
+    font-style: italic;
+  }
+}
+
+.gpu {
+  display: block;
+  margin-left: -40px;
+  margin-top: auto;
+}
+
+.video {
+  @include reset-btn;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: percentage(800/1440);
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  svg {
+    @include align;
+    opacity: 0.65;
+    transition: .3s;
+  }
+
+  &:hover, &:focus {
+    svg {
+      opacity: 1;
+    }
+  }
+}
+
+.copy {
+  padding-top: 550px;
+  padding-bottom: 100px;
+  font-size: 15px;
+  line-height: 28px;
+  max-width: 460px;
+  margin-left: auto;
+  margin-right: auto;
+
+  p + p {
+    margin-top: 30px;
+  }
 }
