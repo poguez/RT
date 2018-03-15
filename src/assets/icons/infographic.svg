@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="920" height="387" viewBox="0 0 920 387">
+  <defs>
+    <circle id="infographic-a" cx="8" cy="8" r="8"/>
+    <circle id="infographic-b" cx="8" cy="8" r="8"/>
+    <circle id="infographic-c" cx="3" cy="88" r="3"/>
+    <circle id="infographic-d" cx="23" cy="3" r="3"/>
+    <circle id="infographic-e" cx="3" cy="88" r="3"/>
+    <circle id="infographic-f" cx="23" cy="3" r="3"/>
+    <circle id="infographic-g" cx="3" cy="88" r="3"/>
+    <circle id="infographic-h" cx="23" cy="3" r="3"/>
+    <circle id="infographic-i" cx="3" cy="88" r="3"/>
+    <circle id="infographic-j" cx="23" cy="3" r="3"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -4)">
+    <g transform="translate(0 84)">
+      <g stroke="#C9D5DE" stroke-linecap="round" stroke-width="2" transform="translate(90 144)">
+        <path d="M202,60 L34,60 C17.4314575,60 4,46.5685425 4,30 L4,2"/>
+        <polyline stroke-linejoin="round" points="0 4 4 0 8 4"/>
+      </g>
+      <g stroke="#C9D5DE" stroke-linecap="round" stroke-width="2" transform="translate(628 144)">
+        <path d="M198,0 L198,30 C198,46.5685425 184.568542,60 168,60 L2,60"/>
+        <polyline stroke-linejoin="round" points="4 64 0 60 4 56"/>
+      </g>
+      <g stroke="#C9D5DE" stroke-linecap="round" stroke-width="2" transform="translate(628 20)">
+        <path d="M1.13686838e-13,0 L168,3.55271368e-15 C184.568542,5.09121799e-16 198,13.4314575 198,30 L198,58"/>
+        <polyline stroke-linejoin="round" points="202 56 198 60 194 56"/>
+      </g>
+      <g stroke="#C9D5DE" stroke-linecap="round" stroke-width="2" transform="translate(94 16)">
+        <path d="M0,64 L0,34 C-2.02906125e-15,17.4314575 13.4314575,4 30,4 L196,4"/>
+        <polyline stroke-linejoin="round" points="194 0 198 4 194 8"/>
+      </g>
+      <g transform="translate(732 92)">
+        <rect width="188" height="40" fill="#90A4B3" rx="20"/>
+        <text fill="#FFF" font-family="SourceSansPro-Black, Source Sans Pro" font-size="15" font-weight="700">
+          <tspan x="23.29" y="25">User Processing Jobs</tspan>
+        </text>
+      </g>
+      <g transform="translate(628 84)">
+        <text fill="#90A4B3" font-family="SourceSansPro-Black, Source Sans Pro" font-size="12" font-weight="700">
+          <tspan x="27.16" y="52">Tokens</tspan>
+        </text>
+        <text fill="#90A4B3" font-family="SourceSansPro-Black, Source Sans Pro" font-size="12" font-weight="700">
+          <tspan x="30.556" y="12">RNDR</tspan>
+        </text>
+        <g stroke="#C9D5DE" stroke-linecap="round" stroke-width="2" transform="translate(0 25)">
+          <path d="M0,3 L90,3"/>
+          <polyline stroke-linejoin="round" points="89 0 92 3 89 6"/>
+        </g>
+        <g transform="translate(38 20)">
+          <use fill="#F3B65E" xlink:href="#infographic-a"/>
+          <circle cx="8" cy="8" r="10" stroke="#F0F3F5" stroke-width="4"/>
+          <circle cx="8" cy="8" r="5" fill="#CD984B"/>
+        </g>
+      </g>
+      <g transform="translate(304)">
+        <rect width="312" height="224" fill="#E62249" rx="5"/>
+        <text fill="#FFF" font-family="SourceSansPro-Black, Source Sans Pro" font-size="12" font-weight="700">
+          <tspan x="191.372" y="174">Blockchain</tspan>
+        </text>
+        <text fill="#FFF" font-family="SourceSansPro-Black, Source Sans Pro" font-size="12" font-weight="700">
+          <tspan x="64.516" y="174">Ethereum</tspan>
+        </text>
+        <g transform="translate(191 92)">
+          <circle cx="30" cy="30" r="30" fill="#B22240" opacity=".65"/>
+          <g stroke="#FFF" stroke-width="2" transform="translate(14 14)">
+            <circle cx="16" cy="29" r="3"/>
+            <circle cx="16" cy="16" r="3"/>
+            <circle cx="16" cy="3" r="3"/>
+            <circle cx="29" cy="23" r="3"/>
+            <circle cx="29" cy="9" r="3"/>
+            <circle cx="3" cy="23" r="3"/>
+            <circle cx="3" cy="9" r="3"/>
+            <path stroke-linecap="round" d="M15.9951172 9L15.9951172 10.0029297M15.9951172 22L15.9951172 23.0029297M3 15L3 17.0029297M29 15L29 17.0029297"/>
+            <polyline stroke-linecap="round" points="21.688 5.624 22.5 5.999 23.313 6.374"/>
+            <polyline stroke-linecap="round" points="8.688 25.624 9.5 25.999 10.313 26.374"/>
+            <polyline stroke-linecap="round" points="8.69 6.375 9.096 6.188 9.502 6 9.908 5.813 10.314 5.625"/>
+            <polyline stroke-linecap="round" points="21.69 26.375 22.096 26.188 22.502 26 22.908 25.813 23.314 25.625"/>
+            <polyline stroke-linecap="round" points="21.484 13.048 21.688 12.938 22.5 12.501 23.313 12.064 23.516 11.954"/>
+            <polyline stroke-linecap="round" points="8.484 13.048 8.688 12.938 9.5 12.501 10.313 12.064 10.516 11.954" transform="matrix(-1 0 0 1 19 0)"/>
+          </g>
+        </g>
+        <path fill="#FFF" d="M155,121 L155,119 C155,118.447715 155.447715,118 156,118 C156.552285,118 157,118.447715 157,119 L157,121 L159,121 C159.552285,121 160,121.447715 160,122 C160,122.552285 159.552285,123 159,123 L157,123 L157,125 C157,125.552285 156.552285,126 156,126 C155.447715,126 155,125.552285 155,125 L155,123 L153,123 C152.447715,123 152,122.552285 152,122 C152,121.447715 152.447715,121 153,121 L155,121 Z"/>
+        <g transform="translate(61 92)">
+          <circle cx="30" cy="30" r="30" fill="#B22240" opacity=".65"/>
+          <g stroke="#FFF" stroke-linecap="round" stroke-width="2" transform="translate(19 12.5)">
+            <polygon stroke-linejoin="round" points=".5 16.3 11 0 21.5 16.3 11 22"/>
+            <path d="M11.0016713,0.5 L10.9983287,21.5"/>
+            <polyline points="1 16 11 11.5 21 16"/>
+            <polygon stroke-linejoin="round" points=".75 21 11 26.6 21.25 21 10.998 34.605"/>
+            <path d="M11.0016713,26.5 L10.9983287,32.5"/>
+          </g>
+        </g>
+        <text fill="#FFF" font-family="SourceSansPro-Black, Source Sans Pro" font-size="15" font-weight="700" letter-spacing="3.5">
+          <tspan x="69.86" y="60">RENDER NETWOR</tspan> <tspan x="232.72" y="60">K</tspan>
+        </text>
+      </g>
+      <g transform="translate(200 84)">
+        <text fill="#90A4B3" font-family="SourceSansPro-Black, Source Sans Pro" font-size="12" font-weight="700">
+          <tspan x="27.16" y="52">Tokens</tspan>
+        </text>
+        <text fill="#90A4B3" font-family="SourceSansPro-Black, Source Sans Pro" font-size="12" font-weight="700">
+          <tspan x="30.556" y="12">RNDR</tspan>
+        </text>
+        <g stroke="#C9D5DE" stroke-linecap="round" stroke-width="2" transform="translate(0 25)">
+          <path d="M0,3 L90,3"/>
+          <polyline stroke-linejoin="round" points="89 0 92 3 89 6"/>
+        </g>
+        <g transform="translate(38 20)">
+          <use fill="#F3B65E" xlink:href="#infographic-b"/>
+          <circle cx="8" cy="8" r="10" stroke="#F0F3F5" stroke-width="4"/>
+          <circle cx="8" cy="8" r="5" fill="#CD984B"/>
+        </g>
+      </g>
+      <g transform="translate(0 92)">
+        <rect width="188" height="40" fill="#90A4B3" rx="20"/>
+        <text fill="#FFF" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="15" font-weight="bold">
+          <tspan x="23.058" y="25">User Requesting Jobs</tspan>
+        </text>
+      </g>
+    </g>
+    <g transform="translate(27 285)">
+      <g transform="translate(200)">
+        <path stroke="#C9D5DE" stroke-dasharray="3 7" stroke-linecap="round" stroke-width="2" d="M23,10 L23,78 C23,83.5228475 18.5228475,88 13,88 L10,88"/>
+        <use fill="#90A4B3" xlink:href="#infographic-c"/>
+        <circle cx="3" cy="88" r="4.5" stroke="#F0F3F5" stroke-width="3"/>
+        <g>
+          <use fill="#90A4B3" xlink:href="#infographic-d"/>
+          <circle cx="23" cy="3" r="4.5" stroke="#F0F3F5" stroke-width="3"/>
+        </g>
+      </g>
+      <text fill="#778B9A" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14">
+        <tspan x="8.378" y="64">Once completed and delivered, </tspan> <tspan x="19.466" y="83">tokens are transferred via the </tspan> <tspan x="100.876" y="102">smart contract.</tspan>
+      </text>
+    </g>
+    <g transform="translate(561 285)">
+      <g transform="translate(200)">
+        <path stroke="#C9D5DE" stroke-dasharray="3 7" stroke-linecap="round" stroke-width="2" d="M23,10 L23,78 C23,83.5228475 18.5228475,88 13,88 L10,88"/>
+        <use fill="#90A4B3" xlink:href="#infographic-e"/>
+        <circle cx="3" cy="88" r="4.5" stroke="#F0F3F5" stroke-width="3"/>
+        <g>
+          <use fill="#90A4B3" xlink:href="#infographic-f"/>
+          <circle cx="23" cy="3" r="4.5" stroke="#F0F3F5" stroke-width="3"/>
+        </g>
+      </g>
+      <text fill="#778B9A" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14">
+        <tspan x="25.612" y="83">GPU lender performs task to </tspan> <tspan x="36.504" y="102">process the requested job.</tspan>
+      </text>
+    </g>
+    <g transform="translate(667)">
+      <g transform="translate(0 16)">
+        <path stroke="#C9D5DE" stroke-dasharray="3 7" stroke-linecap="round" stroke-width="2" d="M3,81 L3,13 C3,7.4771525 7.4771525,3 13,3 L16,3"/>
+        <use fill="#90A4B3" xlink:href="#infographic-g"/>
+        <circle cx="3" cy="88" r="4.5" stroke="#F0F3F5" stroke-width="3"/>
+        <g>
+          <use fill="#90A4B3" xlink:href="#infographic-h"/>
+          <circle cx="23" cy="3" r="4.5" stroke="#F0F3F5" stroke-width="3"/>
+        </g>
+      </g>
+      <text fill="#778B9A" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14">
+        <tspan x="36" y="14">Task is quoted a price in RNDR </tspan> <tspan x="36" y="33">tokens. Details attached to </tspan> <tspan x="36" y="52">smart contract and sent across </tspan> <tspan x="36" y="71">the Render Network.</tspan>
+      </text>
+    </g>
+    <g transform="translate(133)">
+      <g transform="translate(0 16)">
+        <path stroke="#C9D5DE" stroke-dasharray="3 7" stroke-linecap="round" stroke-width="2" d="M3,81 L3,13 C3,7.4771525 7.4771525,3 13,3 L16,3"/>
+        <use fill="#90A4B3" xlink:href="#infographic-i"/>
+        <circle cx="3" cy="88" r="4.5" stroke="#F0F3F5" stroke-width="3"/>
+        <g>
+          <use fill="#90A4B3" xlink:href="#infographic-j"/>
+          <circle cx="23" cy="3" r="4.5" stroke="#F0F3F5" stroke-width="3"/>
+        </g>
+      </g>
+      <text fill="#778B9A" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14">
+        <tspan x="36" y="14">User submits a </tspan> <tspan x="36" y="33">render task in ORC.</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
