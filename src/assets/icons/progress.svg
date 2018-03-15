@@ -33,10 +33,10 @@
     <rect width="368" height="32" x="10" y="16" fill="#FFF" opacity=".406" rx="16"/>
     <path fill="url(#progress-a)" d="M26,16 L288,16 L288,48 L26,48 C17.163444,48 10,40.836556 10,32 L10,32 C10,23.163444 17.163444,16 26,16 Z"/>
     <text fill="#FFF" font-family="Source Sans Pro" font-size="15" font-weight="700">
-      <tspan x="165.68" y="35">Ongoing</tspan>
+      <tspan x="165.68" y="35.5">Ongoing</tspan>
     </text>
     <text fill="#FFF" font-family="Source Sans Pro" font-size="15" font-weight="700">
-      <tspan x="30.225" y="35">4K ETH</tspan>
+      <tspan x="30.225" y="35.5">4K ETH</tspan>
     </text>
     <use fill="#000" filter="url(#progress-b)" xlink:href="#progress-c"/>
     <use fill="#242B35" xlink:href="#progress-c"/>
