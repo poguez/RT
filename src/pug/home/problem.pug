@@ -1,25 +1,28 @@
 mixin problem({icon, title, copy, img})
-  div
-    if img
-      +img(img)
-    else
-      +svg(icon)
-    h3= title
-    p= copy
+  div(css-module='home.problem.problem')
+    div(css-module='home.problem.icon')
+      if img
+        +img(img)
+      else
+        +svg(icon)
+    h3(css-module='home.problem.problem-title')= title
+    p(css-module='home.problem.copy')= copy
 
-#problem
-  .container
-    h6 The Problem
-    div
-      div
-        h4 Our visual world is evolving at breakneck speed.
-      div
-        +svg('dash-vertical')
-        p Authoring and publishing state-of-the-art graphics is an immense challenge that is growing each day. The future demand for advanced rendering will imply even more complexity, higher resolution and more interactivity.
+#problem(css-module='home.problem.wrapper')
+  .container-1060
+    h6(css-module='home.problem.title') The Problem
+    div(css-module='home.problem.intro')
+      div(css-module='home.problem.small-col')
+        h4(css-module='home.problem.subtitle') Our visual world is evolving at breakneck speed.
+      div(css-module='home.problem.large-col')
+        div(css-module='home.problem.dash')
+          +svg('dash-vertical')
+        p(css-module='home.problem.summary') Authoring and publishing state-of-the-art graphics is an immense challenge that is growing each day. The future demand for advanced rendering will imply even more complexity, higher resolution and more interactivity.
 
-    +svg('divider')
+    div(css-module='home.problem.divider')
+      +svg('divider')
 
-    div
+    div(css-module='home.problem.problems')
       +problem({
         icon: 'scale',
         title: 'Ecosystem Scalability',

@@ -1,0 +1,87 @@
+@import '../abstracts/index';
+
+.wrapper {
+  padding: 115px 0 40px;
+}
+
+.title {
+  font-family: $lato;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 45px;
+}
+
+.summary {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.intro {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.small-col {
+  flex-basis: percentage(3/8);
+  max-width: percentage(3/8);
+  margin-right: auto;
+}
+
+.large-col {
+  flex-basis: percentage(4/8);
+  max-width: percentage(4/8);
+  margin-left: auto;
+  display: flex;
+}
+
+.dash {
+  margin-right: 24px;
+}
+
+.divider {
+  margin-bottom: 80px;
+  svg {
+    width: 100%;
+  }
+}
+
+.problems {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -30px;
+}
+
+.problem {
+  padding: 0 30px;
+  flex-basis: 50%;
+  max-width: 50%;
+  margin-bottom: 70px;
+}
+
+.icon {
+  @include size(52px);
+  margin-bottom: 37px;
+  svg, img {
+    display: block;
+  }
+}
+
+.problem-title {
+  font-family: $lato;
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 21px;
+}
+
+.copy {
+  font-size: 15px;
+  line-height: 28px;
+}
