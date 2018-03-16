@@ -24,7 +24,7 @@
     "accordionjs": "^2.1.1",
     "babel-loader": "8.0.0-beta.2",
     "del": "^3.0.0",
-    "eslint": "^4.18.2",
+    "eslint": "^4.19.0",
     "eslint-loader": "^2.0.0",
     "fontfaceobserver": "^2.0.13",
     "fs-path": "^0.0.24",
@@ -37,7 +37,7 @@
     "yargs": "^11.0.0"
   },
   "devDependencies": {
-    "@pixel2html/stylelint-config": "^1.5.0",
+    "@pixel2html/stylelint-config": "^1.5.3",
     "browser-sync": "^2.23.6",
     "react-dev-utils": "^5.0.0",
     "stylelint": "^9.1.3",
