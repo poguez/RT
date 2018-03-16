@@ -667,11 +667,12 @@
     posthtml-img-autosize "^0.1.1"
     sass-module-importer "^1.4.0"
 
-"@pixel2html/stylelint-config@^1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@pixel2html/stylelint-config/-/stylelint-config-1.4.2.tgz#ae4dae7220e541f295a6d832830e5f1c5cd5c23b"
+"@pixel2html/stylelint-config@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@pixel2html/stylelint-config/-/stylelint-config-1.5.0.tgz#0a7677b148a4e3beeb24bde9eaeb311087b53be5"
   dependencies:
     "@pixel2html/browserlist" "^1.0.0"
+    stylelint-config-css-modules "^1.2.0"
     stylelint-config-recommended-scss "^3.1.0"
     stylelint-scss "^2.4.0"
 
@@ -7792,6 +7793,10 @@ style-search@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
 
+stylelint-config-css-modules@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-1.2.0.tgz#8699e556a0d4ae6742bbe7b03138cde847e92699"
+
 stylelint-config-recommended-scss@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended-scss/-/stylelint-config-recommended-scss-3.1.0.tgz#25b8511074420615cce18de812b21b2aba13a29f"
@@ -8162,9 +8167,22 @@ uglify-to-browserify@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
 
-uglifyjs-webpack-plugin@^1.1.1, uglifyjs-webpack-plugin@^1.2.3:
+uglifyjs-webpack-plugin@^1.1.1:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.3.tgz#bf23197b37a8fc953fecfbcbab66e506f9a0ae72"
+  dependencies:
+    cacache "^10.0.4"
+    find-cache-dir "^1.0.0"
+    schema-utils "^0.4.5"
+    serialize-javascript "^1.4.0"
+    source-map "^0.6.1"
+    uglify-es "^3.3.4"
+    webpack-sources "^1.1.0"
+    worker-farm "^1.5.2"
+
+uglifyjs-webpack-plugin@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.4.tgz#5eec941b2e9b8538be0a20fc6eda25b14c7c1043"
   dependencies:
     cacache "^10.0.4"
     find-cache-dir "^1.0.0"

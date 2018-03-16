@@ -1,0 +1,107 @@
+@import '../abstracts/index';
+
+.box {
+  background: #FFFFFF;
+  box-shadow: 0 10px 30px 0 rgba(115,133,159,0.16);
+  border-radius: 5px;
+  position: relative;
+  height: 300px;
+  padding: 50px 60px 40px;
+  overflow: hidden;
+}
+
+.q {
+  font-weight: 900;
+  font-size: 123px;
+  line-height: 155px;
+  opacity: 0.05;
+  position: absolute;
+  top: -47px;
+  right: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  svg {
+    margin: 0 8px;
+  }
+}
+
+.year {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 900;
+}
+
+.quarter {
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 900;
+}
+
+.phase {
+  font-family: $lato;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.g-phase {
+  composes: phase;
+  color: $green;
+}
+
+.title {
+  font-family: $lato;
+  font-size: 19px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-bottom: 25px;
+
+  svg {
+    margin-left: 10px;
+  }
+}
+
+.copy {
+  font-size: 15px;
+  line-height: 28px;
+
+  a {
+    color: $blue;
+    font-weight: 700;
+  }
+}
+
+.fade {
+  background-image: linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, #FFFFFF 62%);
+  height: 113px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.button {
+  @include reset-btn;
+  @include align(horizontal);
+  width: 102px;
+  height: 30px;
+  bottom: 40px;
+  background: $black;
+  color: $white;
+  font-weight: 700;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+
+  svg {
+    margin-left: 5px;
+  }
+}

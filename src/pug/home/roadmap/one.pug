@@ -1,13 +1,18 @@
-div
-  span Q4
-  div
-    span 2017
+div(css-module='roadmap.box.box')
+  span(css-module='roadmap.box.q') Q4
+  div(css-module='roadmap.box.header')
+    span(css-module='roadmap.box.year') 2017
     +svg('dot')
-    span Q4
-  h6 Render Phase I
-  h5
+    span(css-module='roadmap.box.quarter') Q4
+  h6(css-module='roadmap.box.g-phase') Render Phase I
+  h5(css-module='roadmap.box.title')
     | Post Token Sale
     +svg('check')
 
-  div
+  div(css-module='roadmap.box.copy')
     p Enable cloud rendering services on the #[a(href='https://orc.otoy.com') orc.otoy.com] website with the ability to exchange tokens for rendering services that will be kept track of and facilitated by the blockchain. Services would be initially handled by OTOY or third party servers and would set the framework for a reliable transition into the p2p framework of rendering. Staking methodology implementation. Alpha testing on RNDR’s local nodes.
+
+  div(css-module='roadmap.box.fade')
+  button(css-module='roadmap.box.button')
+    span Read More
+    +svg('caret-down')
