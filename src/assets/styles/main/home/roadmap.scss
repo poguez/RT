@@ -1,0 +1,52 @@
+@import '../abstracts/index';
+
+.wrapper {
+  background: $snow;
+  padding-top: 115px;
+  position: relative;
+}
+
+.title {
+  font-size: 19px;
+  margin-bottom: 32px;
+  line-height: 23px;
+  font-family: $lato;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 32px;
+  text-align: center;
+  line-height: 45px;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+
+.first-box {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 39px;
+}
+
+.row {
+  display: flex;
+}
+
+.box-col {
+  flex-basis: percentage(450/1060);
+  max-width: percentage(450/1060);
+}
+
+.timeline-col {
+  flex-basis: percentage(98/1060);
+  max-width: percentage(98/1060);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gears {
+  display: block;
+  width: 100%;
+}

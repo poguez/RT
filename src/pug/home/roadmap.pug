@@ -1,17 +1,18 @@
-section#roadmap
+section#roadmap(css-module='home.roadmap.wrapper')
   .container-1060
-    h6 Roadmap
-    h4 2017, 2018 & Beyond
+    h6(css-module='home.roadmap.title') Roadmap
+    h4(css-module='home.roadmap.subtitle') 2017, 2018 & Beyond
 
-    include roadmap/one
+    div(css-module='home.roadmap.first-box')
+      include roadmap/one
 
-    div
-      div
+    div(css-module='home.roadmap.row')
+      div(css-module='home.roadmap.box-col')
         include roadmap/two
         include roadmap/four
-      div
+      div(css-module='home.roadmap.timeline-col')
         +svg('timeline')
-      div
+      div(css-module='home.roadmap.box-col')
         include roadmap/three
 
-  +img('close.png')
+  +img('close.png', 'home.roadmap.gears')
