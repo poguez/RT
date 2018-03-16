@@ -8,6 +8,12 @@
   height: 300px;
   padding: 50px 60px 40px;
   overflow: hidden;
+  transition: .3s;
+}
+
+.box-expanded {
+  composes: box;
+  height: initial;
 }
 
 .q {

@@ -8,11 +8,14 @@ section#roadmap(css-module='home.roadmap.wrapper')
 
     div(css-module='home.roadmap.row')
       div(css-module='home.roadmap.box-col')
-        include roadmap/two
-        include roadmap/four
+        div(css-module='home.roadmap.two')
+          include roadmap/two
+        div
+          include roadmap/four
       div(css-module='home.roadmap.timeline-col')
         +svg('timeline')
       div(css-module='home.roadmap.box-col')
-        include roadmap/three
+        div(css-module='home.roadmap.three')
+          include roadmap/three
 
-  +img('close.png', 'home.roadmap.gears')
+  +img('close.png', 'home.roadmap.gears-stuck')
