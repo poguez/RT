@@ -1,0 +1,17 @@
+mixin press(name)
+  div(css-module='home.press.media')
+    +svg(name)
+
+section#press(css-module='home.press.wrapper')
+  div(css-module='home.press.container')
+    h6(css-module='home.press.small') In the news
+    p(css-module='home.press.large') Media that rendered us valuable.
+
+    div(css-module='home.press.row')
+      +press('forbes')
+      div(css-module='home.press.media')
+        +img('venturebeat.png')
+      +press('yahoo')
+      +press('fxguide')
+      +press('variety')
+      +press('nasdaq')
