@@ -1,15 +1,20 @@
-div
-  span X
-  div
-    span X
-  h6 Render Phase IV
-  h5 The Ultimate Vision
-    span To be done
-      +svg('tooltip')
+div(css-module='roadmap.box.box')
+  span(css-module='roadmap.box.q')
+    | X
+  div(css-module='roadmap.box.header')
+    span(css-module='roadmap.box.year')
+      | X
+    +svg('dot')
+  h6(css-module='roadmap.box.phase')
+    | Render Phase IV
+  h5(css-module='roadmap.box.title')
+    | The Ultimate Vision
+    +svg('tbd')
 
-  div
+  div(css-module='roadmap.box.copy')
     p RNDR migrations to its own blockchain with new protocols. Build tools for developers to port RNDR devtools and create their own applications built on top of the network.
 
-  button
-    span Read more
+  div(css-module='roadmap.box.fade')
+  button(css-module='roadmap.box.button')
+    span Read More
     +svg('caret-down')

@@ -1,17 +1,22 @@
-div
-  span Q2
-  div
-    span 2018
+div(css-module='roadmap.box.box')
+  span(css-module='roadmap.box.q')
+    | Q2
+  div(css-module='roadmap.box.header')
+    span(css-module='roadmap.box.year')
+      | 2018
     +svg('dot')
-    span Q2
-  h6 Render Phase II
-  h5
+    span(css-module='roadmap.box.quarter')
+      | Q2
+  h6(css-module='roadmap.box.phase')
+    | Render Phase II
+  h5(css-module='roadmap.box.title')
     | Development Process & Preparation for P2P Transition
     +svg('current')
 
-  div
+  div(css-module='roadmap.box.copy')
     p Development of OTOY’s back-end network that will handle the efficient processing of the rendering and streaming transactions via the Ethereum blockchain. Alpha testing on the testnet of the p2p network. Migration to real tokens.
 
-  button
-    span Read more
+  div(css-module='roadmap.box.fade')
+  button(css-module='roadmap.box.button')
+    span Read More
     +svg('caret-down')
