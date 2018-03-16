@@ -1,0 +1,32 @@
+mixin partner({icon, name, copy, url})
+  div
+    div
+      +svg(icon)
+    h6= name
+    p= copy
+    a(href=url title=name)
+      span Visit
+      +svg('caret-right')
+
+section#partners
+  .container-1060
+    div
+      h6 Partners
+      h4 Projects helping us make RNDR possible.
+
+    div
+      +partner({
+        icon: 'decentraland',
+        name: 'Decentraland',
+        copy: 'A blockchain-based virutal reality world.'
+      })
+      +partner({
+        icon: 'sia',
+        name: 'Sia',
+        copy: 'Decentralized storage platform secured by blockchain.'
+      })
+      +partner({
+        icon: 'bat',
+        name: 'basicattentiontoken',
+        copy: 'Introducing blockchain-based digital advertising.'
+      })
