@@ -1,0 +1,22 @@
+@import '../abstracts/index';
+
+.distribution {
+  display: flex;
+  margin: 0 ($column-gutter / -2);
+}
+
+.row {
+  display: flex;
+  margin: 0 -10px;
+}
+
+.hafu {
+  padding: 0 10px;
+  flex-basis: 50%;
+  max-width: 50%;
+
+  svg {
+    display: block;
+    width: 100%;
+  }
+}
