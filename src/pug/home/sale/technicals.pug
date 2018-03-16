@@ -1,45 +1,47 @@
-div
-  div
-    h6 Token Sale
-    h4 Render Token Technicals
-  div
-    div
-      div
-        h6 What is Render Token
-      div
-        p The Render Token is an ERC20 standard token on the Ethereum blockchain. RNDR will be used as a form of payment between clients and renderers in the upcoming decentralized Render Network, and can be traded for fiat currency.
-    div
-      div
-        h6 Symbol
-      div
-        p RNDR
-    div
-      div
-        h6 Hardcap
-      div
-        p 10,000,000 USD
-    div
-      div
-        h6 Token Supply
-      div
-        p 40,000,000 RNDR
-    div
-      div
-        h6 Price
-      div
-        p 1 RNDR = 0.25 USD
-    div
-      div
-        h6 Funding
-      div
-        p Ethereum (ETH)
-    div
-      div
-        h6 Starts
-      div
-        p April 14, 2018 (9:00 AM, New York, EST)
-    div
-      div
-        h6 Ends
-      div
-        p February 28, 2018 (11:59 PM, New York, EST)
+mixin table({title, copy, intro})
+  div(css-module='sale.technicals.table')
+    div(css-module='sale.technicals.table-small')
+      h6= title
+    div(css-module='sale.technicals.table-large')
+      p(css-module= intro ? 'sale.technicals.intro' : 'sale.technicals.copy')= copy
+
+div(css-module='sale.technicals.row')
+  div(css-module='sale.technicals.small-col')
+    h6(css-module='sale.technicals.title') Token Sale
+    h4(css-module='sale.technicals.render') Render Token Technicals
+  div(css-module='sale.technicals.large-col')
+    +table({
+      title: 'What is Render Token',
+      copy: "The Render Token is an ERC20 standard token on the Ethereum blockchain. "
+        + "RNDR will be used as a form of payment between clients and renderers in the upcoming"
+        + " decentralized Render Network, and can be traded for fiat currency.",
+      intro: true
+    })
+    +table({
+      title: 'Symbol',
+      copy: 'RNDR'
+    })
+    +table({
+      title: 'Hardcap',
+      copy: '10,000,000 USD'
+    })
+    +table({
+      title: 'Token Supply',
+      copy: '40,000,000 RNDR'
+    })
+    +table({
+      title: 'Price',
+      copy: '1 RNDR = 0.25 USD'
+    })
+    +table({
+      title: 'Funding',
+      copy: 'Ethereum (ETH)'
+    })
+    +table({
+      title: 'Starts',
+      copy: 'April 14, 2018 (9:00 AM, New York, EST)'
+    })
+    +table({
+      title: 'Ends',
+      copy: 'February 28, 2018 (11:59 PM, New York, EST)'
+    })

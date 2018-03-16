@@ -1,0 +1,75 @@
+@import '../abstracts/index';
+
+.row {
+  display: flex;
+  margin: 0 ($column-gutter / -2) 80px;
+}
+
+.small-col {
+  padding: 0 ($column-gutter / 2);
+  flex-basis: percentage(3/12);
+  max-width: percentage(3/12);
+  margin-right: auto;
+  text-align: right;
+}
+
+.large-col {
+  padding: 0 ($column-gutter / 2);
+  flex-basis: percentage(8/12);
+  max-width: percentage(8/12);
+  margin-left: auto;
+}
+
+.title {
+  font-family: $lato;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+
+.render {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.table {
+  display: flex;
+  padding: 30px 0;
+  margin: 0 -10px;
+  border-top: 2px solid rgba($black, 0.05);
+
+  &:last-child {
+    border-bottom: 2px solid rgba($black, 0.05);
+  }
+}
+
+.table-small {
+  flex-basis: percentage(2/8);
+  max-width: percentage(2/8);
+  padding: 0 10px;
+
+  h6 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    max-width: 112px;
+  }
+}
+
+.table-large {
+  flex-basis: percentage(6/8);
+  max-width: percentage(6/8);
+  padding: 0 10px;
+}
+
+.copy {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.intro {
+  font-size: 15px;
+  line-height: 28px;
+}
