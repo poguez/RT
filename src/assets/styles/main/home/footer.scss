@@ -1,0 +1,94 @@
+@import '../abstracts/index';
+
+.wrapper {
+  padding: 95px 0;
+  color: $cool-gray;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.large {
+  flex-basis: percentage(3/12);
+  max-width: percentage(3/12);
+}
+
+.small {
+  flex-basis: percentage(2/12);
+  max-width: percentage(2/12);
+}
+
+.logo {
+  margin-bottom: 24px;
+  display: block;
+  svg {
+    display: block;
+  }
+}
+
+.summary {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.title {
+  font-family: $lato;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+
+.dash {
+  margin-bottom: 33px;
+  svg {
+    display: block;
+    fill: currentColor;
+    @include size(29px, 2px);
+  }
+}
+
+.social {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 600;
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  div {
+    flex-basis: 30px;
+    max-width: 30px;
+  }
+
+  svg {
+    display: block;
+  }
+}
+
+.links {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 600;
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  svg {
+    margin: 0 5px;
+  }
+}

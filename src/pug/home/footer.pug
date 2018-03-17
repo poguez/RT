@@ -1,39 +1,41 @@
-footer#footer
+footer#footer(css-module='home.footer.wrapper')
   .container-1060
-    div
-      div
-        a(href='index' title='rndr')
+    div(css-module='home.footer.row')
+      div(css-module='home.footer.large')
+        a(href='index' title='rndr' css-module='home.footer.logo')
           span.sr-only RNDR Logo
-          +svg('rndr')
-        p The first network to transform the power of GPU compute into a decentralized economy of connected 3D assets.
-      div
-        h6 Find us on
-        +svg('dash')
+          +svg('rndr-footer')
+        p(css-module='home.footer.summary') The first network to transform the power of GPU compute into a decentralized economy of connected 3D assets.
+      div(css-module='home.footer.small')
+        h6(css-module='home.footer.title') Find us on
+        div(css-module='home.footer.dash')
+          +svg('dash')
 
-        ul
+        ul(css-module='home.footer.social')
           li: a(href="#")
-            +svg('rocket')
+            div: +svg('rocket-foot')
             span Rocket.Chat
           li: a(href="#")
-            +svg('twitter')
+            div: +svg('twitter')
             span Twitter
           li: a(href="#")
-            +svg('facebook')
+            div: +svg('facebook')
             span Facebook
           li: a(href="#")
-            +svg('telegram')
+            div: +svg('telegram')
             span Telegram
           li: a(href="#")
-            +svg('reddit')
+            div: +svg('reddit')
             span Reddit
           li: a(href="#")
-            +svg('medium')
+            div: +svg('medium')
             span Medium
-      div
-        h6 RNDR Token
-        +svg('dash')
+      div(css-module='home.footer.small')
+        h6(css-module='home.footer.title') RNDR Token
+        div(css-module='home.footer.dash')
+          +svg('dash')
 
-        ul
+        ul(css-module='home.footer.links')
           li: a(href='#')
             span Watch Intro Video
             +svg('play-mini')
@@ -43,10 +45,12 @@ footer#footer
           li: a(href='#') Team & Advisors
           li: a(href='#') Roadmap
           li: a(href='#') Media Press
-      div
-        h6 Whitepaper
-        +svg('dash')
-        ul
+
+      div(css-module='home.footer.small')
+        h6(css-module='home.footer.title') Whitepaper
+        div(css-module='home.footer.dash')
+          +svg('dash')
+        ul(css-module='home.footer.links')
           li: a(href="#") English
           li: a(href="#") 简体中文
           li: a(href="#") 한국어
