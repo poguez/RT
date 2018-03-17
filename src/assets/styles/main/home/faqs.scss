@@ -1,0 +1,21 @@
+@import '../abstracts/index';
+
+.wrapper {
+  background: $snow;
+  padding: 55px 0;
+  text-align: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  color: $faqs-gray;
+
+  svg {
+    margin-left: 15px;
+  }
+}
