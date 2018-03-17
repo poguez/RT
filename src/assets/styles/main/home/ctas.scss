@@ -1,0 +1,85 @@
+@import '../abstracts/index';
+
+.wrapper {
+  padding-top: 117px;
+  padding-bottom: 100px;
+
+  background-image: linear-gradient(
+    90deg,
+    $black 0%,
+    $black 50%,
+    $red 50%,
+    $red 100%
+  );
+
+  color: $white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half {
+  flex-basis: percentage(5/12);
+  max-width: percentage(5/12);
+}
+
+.title {
+  font-size: 32px;
+  line-height: 45px;
+  max-width: 300px;
+  font-weight: 600;
+  margin-bottom: 49px;
+}
+
+.chat {
+  height: 58px;
+  font-family: $lato;
+  font-size: 16px;
+  line-height: 19px;
+  display: inline-flex;
+  padding: 20px 24px;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255,255,255,0.25);
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.input {
+  position: relative;
+  padding-right: 21px;
+
+  input {
+    @include reset-input;
+    background: $white;
+    display: block;
+    padding: 17px 24px;
+    height: 58px;
+    width: 100%;
+    border-radius: 5px;
+    border-left: 3px solid $red;
+    font-size: 18px;
+    line-height: 23px;
+    color: $black;
+  }
+
+  button[type='submit'] {
+    @include reset-btn;
+    @include size(42px);
+    @include align(vertical);
+    background: $red;
+    border-radius: 50%;
+    right: 0;
+
+    svg {
+      @include align;
+      [stroke] {
+        stroke: $white;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+section#ctas(css-module='home.ctas.wrapper')
+  .container-1060
+    div(css-module='home.ctas.row')
+      div(css-module='home.ctas.half')
+        h4(css-module='home.ctas.title') Subscribe to receive news & updates.
+        form
+          div(css-module='home.ctas.input')
+            input(type='email' placeholder='Enter your email address for updates')
+            button(type='submit')
+              +svg('arrow-right')
+
+      div(css-module='home.ctas.half')
+        h4(css-module='home.ctas.title') Join the community at Rocket.Chat
+
+        a(href="#" title="Launch Rocket Chat" css-module="home.ctas.chat")
+          +svg('rocket')
+          span Launch Rocket Chat
