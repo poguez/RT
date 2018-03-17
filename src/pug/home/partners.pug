@@ -1,32 +1,36 @@
-mixin partner({icon, name, copy, url})
-  div
-    div
+mixin partner({icon, name, copy, url, attention})
+  div(css-module='home.partners.partner')
+    div(css-module='home.partners.icon')
       +svg(icon)
-    h6= name
-    p= copy
-    a(href=url title=name)
+    if attention
+      h6(css-module='home.partners.name') basic#[span(css-module='home.partners.special') attention]token
+    else
+      h6(css-module='home.partners.name')= name
+    p(css-module='home.partners.copy')= copy
+    a(href=url title=name css-module='home.partners.link')
       span Visit
       +svg('caret-right')
 
-section#partners
+section#partners(css-module='home.partners.wrapper')
   .container-1060
-    div
-      h6 Partners
-      h4 Projects helping us make RNDR possible.
+    h6(css-module='home.partners.title') Partners
 
-    div
-      +partner({
-        icon: 'decentraland',
-        name: 'Decentraland',
-        copy: 'A blockchain-based virutal reality world.'
-      })
-      +partner({
-        icon: 'sia',
-        name: 'Sia',
-        copy: 'Decentralized storage platform secured by blockchain.'
-      })
-      +partner({
-        icon: 'bat',
-        name: 'basicattentiontoken',
-        copy: 'Introducing blockchain-based digital advertising.'
-      })
+    div(css-module='home.partners.row')
+      div(css-module='home.partners.small')
+        h4 Projects helping us make RNDR possible.
+      div(css-module='home.partners.large')
+        +partner({
+          icon: 'decentraland',
+          name: 'Decentraland',
+          copy: 'A blockchain-based virutal reality world.'
+        })
+        +partner({
+          icon: 'sia',
+          name: 'Sia',
+          copy: 'Decentralized storage platform secured by blockchain.'
+        })
+        +partner({
+          icon: 'bat',
+          attention: true,
+          copy: 'Introducing blockchain-based digital advertising.'
+        })

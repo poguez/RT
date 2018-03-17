@@ -1,0 +1,74 @@
+@import '../abstracts/index';
+
+.wrapper {
+  padding: 115px 0;
+}
+
+.row {
+  display: flex;
+}
+
+.title {
+  font-family: $lato;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 700px;
+  margin-bottom: 33px;
+}
+
+.small {
+  flex-basis: percentage(300/1060);
+  max-width: percentage(300/1060);
+  margin-right: auto;
+}
+
+.large {
+  flex-basis: percentage(640/1060);
+  max-width: percentage(640/1060);
+
+  display: flex;
+  margin: 0 -20px;
+}
+
+.partner {
+  padding: 0 20px;
+}
+
+.icon {
+  margin-bottom: 20px;
+  svg {
+    display: block;
+  }
+}
+
+.name {
+  font-family: $lato;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.special {
+  color: #FF5000;
+}
+
+.copy {
+  font-size: 14px;
+  line-height: 23px;
+  margin-bottom: 19px;
+}
+
+.link {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  color: $red;
+
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-left: 5px;
+  }
+}
