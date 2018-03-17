@@ -30,8 +30,11 @@
     "fs-path": "^0.0.24",
     "gulp": "^4.0.0",
     "gulp-zip": "^4.1.0",
+    "gumshoe": "^0.2.1",
     "manila-mixins": "^3.6.0",
     "modularscale-sass": "^3.0.5",
+    "smooth-scroll": "^12.1.5",
+    "sticky-js": "^1.2.0",
     "uglifyjs-webpack-plugin": "^1.2.4",
     "webpack": "^4.1.1",
     "yargs": "^11.0.0"
