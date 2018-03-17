@@ -1,9 +1,11 @@
-#copyright
+#copyright(css-module='home.copyright.wrapper')
   .container-1060
-    div
+    div(css-module='home.copyright.divider')
+      +svg('divider')
+    div(css-module='home.copyright.row')
       div
         span 2018 © OTOY Inc.
       div
-        +svg('otoy')
-      div
+        +svg('footer-logo')
+      div(css-module='home.copyright.right')
         span Made in USA

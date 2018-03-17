@@ -1,0 +1,25 @@
+@import '../abstracts/index';
+
+.wrapper {
+  padding-bottom: 42px;
+  color: $cool-gray;
+}
+
+.divider {
+  margin-bottom: 42px;
+  svg {
+    display: block;
+    width: 100%;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.right {
+  text-align: right;
+}
