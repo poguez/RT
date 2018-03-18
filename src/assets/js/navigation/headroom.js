@@ -1,15 +1,18 @@
 import Headroom from 'headroom.js'
 import { wrapper } from './wrapper'
+import { home } from 'styles'
 
 const head = () => {
+  const styles = home['sticky-navigation']
+
   const headroom = new Headroom(wrapper, {
     classes: {
       // when element is initialised
       initial: 'sticky',
       // when scrolling up
-      pinned: 'pinned',
+      pinned: styles.pinned,
       // when scrolling down
-      unpinned: 'unpinned',
+      unpinned: styles.unpinned,
       // when above offset
       top: 'top',
       // when below offset
