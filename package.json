@@ -30,7 +30,7 @@
     "fs-path": "^0.0.24",
     "gulp": "^4.0.0",
     "gulp-zip": "^4.1.0",
-    "gumshoe": "^0.2.1",
+    "gumshoejs": "^3.5.0",
     "headroom.js": "^0.9.4",
     "manila-mixins": "^3.6.0",
     "modularscale-sass": "^3.0.5",

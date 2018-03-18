@@ -1,4 +1,4 @@
-nav(css-module='home.sticky-navigation.wrapper')
+nav(css-module='home.sticky-navigation.wrapper' data-gumshoe-header)
   .container
     div(css-module='home.sticky-navigation.row')
       div
@@ -6,10 +6,10 @@ nav(css-module='home.sticky-navigation.wrapper')
           +svg('up-arrow')
           span Back to top
 
-      ul(css-module='home.sticky-navigation.navigation')
+      ul(css-module='home.sticky-navigation.navigation' data-gumshoe)
         li: a.active(href='#about') About
-        li: a(href='#render-token') Render Token
-        li: a(href='#the-problem') The Problem
+        li: a(href='#intro') Render Token
+        li: a(href='#problem') The Problem
         li: a(href='#team') Team & Advisors
         li: a(href='#roadmap') Roadmap
 
