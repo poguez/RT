@@ -1,5 +1,18 @@
 @import '../abstracts/index';
 
+.wrapper {
+  background: $black;
+  color: $cool-gray;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -30,11 +43,6 @@
       border-top: 2px solid $red;
     }
   }
-}
-
-.wrapper {
-  background: $black;
-  color: $cool-gray;
 }
 
 .row {

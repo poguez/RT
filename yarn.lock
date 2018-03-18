@@ -4002,6 +4002,10 @@ hawk@~6.0.2:
     hoek "4.x.x"
     sntp "2.x.x"
 
+headroom.js@^0.9.4:
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/headroom.js/-/headroom.js-0.9.4.tgz#0c4e6b4563bb69df55aecdefaba3227566f2df5a"
+
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -7681,10 +7685,6 @@ stdout-stream@^1.4.0:
 step@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/step/-/step-0.0.5.tgz#5e662f15f9ba2ece9c3a9b0e2553d1986b6ba44c"
-
-sticky-js@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/sticky-js/-/sticky-js-1.2.0.tgz#da54ece034cc906646fca8c36bc7b5f48eec55e2"
 
 stream-browserify@^2.0.1:
   version "2.0.1"
