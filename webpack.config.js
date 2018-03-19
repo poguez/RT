@@ -68,7 +68,6 @@ const normalConfig = {
     ]},
   output: {
     filename: shouldBeDebugMode ? '[name].min.js' : '[name].js',
-    chunkFilename: shouldBeDebugMode ? '[name].chunk.min.js' : '[name].chunk.js',
     path: paths.output,
     publicPath: '/'
   },
@@ -92,6 +91,17 @@ const normalConfig = {
   },
   bail: shouldBeDebugMode,
   mode: production ? 'production' : 'development',
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        commons: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendor',
+          chunks: 'all'
+        }
+      }
+    }
+  },
 }
 
 module.exports = [
