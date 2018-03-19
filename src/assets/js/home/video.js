@@ -14,7 +14,7 @@ const video = () => {
       playerVars: {
         controls: 0,
         modestbranding: 1,
-        origin: 1,
+        origin: 0,
         rel: 0,
         showInfo: 0
       }
