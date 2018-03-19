@@ -21,7 +21,6 @@
     "@pixel2html/babel-preset": "^0.10.0",
     "@pixel2html/eslint-config": "^1.4.0",
     "@pixel2html/pipes": "^2.0.0",
-    "accordionjs": "^2.1.1",
     "babel-loader": "8.0.0-beta.2",
     "del": "^3.0.0",
     "eslint": "^4.19.0",
