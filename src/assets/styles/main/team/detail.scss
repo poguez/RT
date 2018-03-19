@@ -1,5 +1,9 @@
 @import '../abstracts/index';
 
+.frozen {
+  overflow: hidden;
+}
+
 .wrapper {
   position: fixed;
   top: 0;
@@ -10,6 +14,16 @@
   background: rgba($black, 0.9);
   padding-top: (45px + 110px);
   padding-bottom: 45px;
+  transition: .3s;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
 }
 
 .exit {
