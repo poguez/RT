@@ -11,9 +11,8 @@
   transition: .3s;
 }
 
-.box-expanded {
-  composes: box;
-  height: initial;
+.expanded {
+  height: auto;
 }
 
 .q {
@@ -110,5 +109,10 @@
 
   svg {
     margin-left: 5px;
+    transition: .3s;
   }
+}
+
+.rotated {
+  transform: rotate(180deg);
 }
