@@ -4,6 +4,7 @@
   background: $black;
   color: $cool-gray;
   transition: .4s;
+  visibility: visible;
 }
 
 .sticky {
@@ -20,6 +21,7 @@
 
 .unpinned {
   transform: translateY(-100%);
+  visibility: hidden;
 }
 
 .navigation {

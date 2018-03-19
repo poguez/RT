@@ -8,9 +8,12 @@ section#intro(css-module='home.intro.wrapper')
           p This Render token system creates a much more efficient, powerful, and widely-scalable rendering network.
         +img('gpu.png', 'home.intro.gpu')
       div(css-module='home.intro.large-col')
-        button(css-module='home.intro.video')
-          +img('poster.jpg')
-          +svg('play')
+        div(css-module='home.intro.video' )
+          div(css-module='home.intro.iframe')
+            div#youtube-player
+          button(css-module='home.intro.button' data-youtube-id='QwievZ1Tx-8')
+            +img('poster.jpg')
+            +svg('play')
 
         div(css-module='home.intro.copy')
           p RNDR will be the first network to transform the power of GPU compute into a decentralized economy of connected 3D assets.
