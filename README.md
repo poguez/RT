@@ -21,7 +21,7 @@ $ npm run code --tunnel // create a tunnel to share your project everywhere
 
 ## File Structure
 
-This boilerplate will create a set of files and folders
+This boilerplate will create a set of files and folders:
 
 ```
 
