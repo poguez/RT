@@ -1,3 +1,4 @@
+// General Code for all pages
 import asyncFonts from './tools/async-fonts'
 
 asyncFonts({
@@ -9,9 +10,9 @@ asyncFonts({
   observer: 'Lato'
 })
 
-const hero = document.querySelector('#hero')
+// Code split per page
 
-if (hero) {
+if (document.querySelector('#hero')) {
   import(/* webpackChunkName: "home" */ './home').then(home => {
     home.default()
   })
