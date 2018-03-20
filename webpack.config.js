@@ -96,18 +96,7 @@ const normalConfig = {
     }
   },
   bail: shouldBeDebugMode,
-  mode: production ? 'production' : 'development',
-  optimization: {
-    splitChunks: {
-      cacheGroups: {
-        commons: {
-          test: /[\\/]node_modules[\\/]/,
-          name: 'vendor',
-          chunks: 'all'
-        }
-      }
-    }
-  },
+  mode: production ? 'production' : 'development'
 }
 
 module.exports = [
