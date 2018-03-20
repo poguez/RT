@@ -24,4 +24,12 @@
     margin: 0 auto;
     padding: 0 ($column-gutter / 2);
   }
+
+  .container-620 {
+    position: relative;
+    width: 95%;
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 0 ($column-gutter / 2);
+  }
 }

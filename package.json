@@ -19,7 +19,7 @@
     "@babel/core": "^7.0.0-beta.42",
     "@babel/runtime": "^7.0.0-beta.42",
     "@pixel2html/babel-preset": "^0.10.0",
-    "@pixel2html/eslint-config": "^1.4.0",
+    "@pixel2html/eslint-config": "^1.5.0",
     "@pixel2html/pipes": "^2.0.0",
     "babel-loader": "8.0.0-beta.2",
     "badger-accordion": "^1.0.20",
