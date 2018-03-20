@@ -12,7 +12,7 @@ asyncFonts({
 const hero = document.querySelector('#hero')
 
 if (hero) {
-  import('./home').then(home => {
-    home()
+  import(/* webpackChunkName: "home" */ './home').then(home => {
+    home.default()
   })
 }

@@ -30,6 +30,11 @@ if (shouldBeDebugMode) {
   process.env.BABEL_ENV = 'production'
 }
 
+const baseJSPath = 'assets/js'
+const filename = shouldBeDebugMode
+  ? `${baseJSPath}/[name].min.js`
+  : `${baseJSPath}/[name].js`
+
 const normalConfig = {
   entry: paths.entry,
   devtool: shouldBeDebugMode ? 'source-map' : 'inline-source-map',
@@ -67,7 +72,8 @@ const normalConfig = {
       }
     ]},
   output: {
-    filename: shouldBeDebugMode ? '[name].min.js' : '[name].js',
+    filename,
+    chunkFilename: filename,
     path: paths.output,
     publicPath: '/'
   },
