@@ -1,1 +1,35 @@
 @import '../abstracts/index';
+
+.wrapper {
+  background: #f0f3f5;
+  padding: 26px 0;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: $lato;
+  font-weight: 900;
+  color: $cool-gray;
+
+  li + li {
+    margin-left: 30px;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-align: center;
+    border-radius: 14px;
+  }
+
+  :global {
+    .active {
+      color: $white;
+      background: $cool-gray;
+    }
+  }
+}
