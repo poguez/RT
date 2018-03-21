@@ -1,5 +1,3 @@
-import BadgerAccordion from 'badger-accordion'
-
-const accordion = () => new BadgerAccordion('.js-badger-accordion')
+const accordion = () => {}
 
 export default accordion
