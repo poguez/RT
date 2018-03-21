@@ -53,5 +53,12 @@
   },
   "eslintConfig": {
     "extends": "@pixel2html/eslint-config"
+  },
+  "yargs": {
+    "short-option-groups": true,
+    "camel-case-expansion": true,
+    "dot-notation": true,
+    "parse-numbers": false,
+    "boolean-negation": true
   }
 }
