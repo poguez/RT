@@ -1,15 +1,19 @@
-header(css-module="home.menu.header")
+header
   .container-1060
-    div(css-module='home.menu.row')
-      a(css-module="home.menu.logo" href="/" title="Otoy")
-        +svg('rndr')
-      ul(css-module='home.menu.normal-links')
-        li: a(href="#") About
-        li: a(href="#") Problems
-        li: a(href="#") Roadmap
-        li: a(href="#") Team & Advisors
-        li: a(href="#") Media Press
-        li: a(href="#") Docs
+    div(css-module="faqs.menu.wrapper")
+      div(css-module='home.menu.row')
+        a(css-module="faqs.menu.logo" href="/" title="Otoy")
+          +svg('rndr')
+        ul(css-module='faqs.menu.links')
+          li: a(href="#") About
+          li: a(href="#") Problems
+          li: a(href="#") Roadmap
+          li: a(href="#") Team & Advisors
+          li: a(href="#") Media Press
+          li: a(href="#") Docs
 
-      a(href="index" title="Back to landing page" css-module="home.menu.cta")
-        span Back to landing page
+        a(href="index" title="Back to landing page" css-module="home.menu.cta")
+          span Back to landing page
+
+    div(css-module='faqs.menu.divider')
+      +svg('divider')

@@ -1,0 +1,40 @@
+@import '../abstracts/index';
+
+.wrapper {
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.logo {
+  margin-right: auto;
+
+  svg {
+    display: block;
+    width: 113px;
+    height: 39px;
+  }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  li + li {
+    margin-left: 30px;
+  }
+
+  a {
+    font-size: 15px;
+    line-height: 28px;
+  }
+}
+
+.divider {
+  svg {
+    display: block;
+    width: 100%;
+  }
+}
