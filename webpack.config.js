@@ -36,7 +36,6 @@ const filename = shouldBeDebugMode ? `[name].min.js` : `[name].js`
 
 const clientId = '0003065'
 const projectId = '0004687'
-console.log({ clientId, projectId })
 
 const normalConfig = {
   entry: paths.entry,
