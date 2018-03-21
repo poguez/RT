@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npm install",
     "code": "gulp",
-    "build": "gulp build --prod --pixel2html --clientId=0003065 --projectId=0004687",
+    "build": "gulp build --prod --pixel2html --clientId='0003065' --projectId='0004687'",
     "build:normal": "gulp build --prod",
     "release": "gulp release --prod",
     "lint:js": "eslint 'src/**/*.js'",
