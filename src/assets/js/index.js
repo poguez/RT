@@ -1,3 +1,5 @@
+// IE Life
+import './polyfills'
 // General Code for all pages
 import asyncFonts from './tools/async-fonts'
 
