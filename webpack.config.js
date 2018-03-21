@@ -30,7 +30,13 @@ if (shouldBeDebugMode) {
   process.env.BABEL_ENV = 'production'
 }
 
-const baseJSPath = 'assets/js'
+// Making the demo-relationship work...
+const { pixel2html, clientId, projectId } = config
+
+// We really want this to work...
+const baseJSPath = pixel2html
+  ? `${clientId}/${projectId}/assets/js`
+  : 'assets/js'
 const filename = shouldBeDebugMode
   ? `${baseJSPath}/[name].min.js`
   : `${baseJSPath}/[name].js`

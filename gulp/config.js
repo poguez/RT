@@ -3,6 +3,7 @@
 const argv = require('yargs').argv
 // Add your conditions here 💅
 const production = !!argv.prod || !!argv.production
+const pixel2html = !!argv.pixel2html
 const debug = !!argv.debug
 const tunnel = !!argv.tunnel
 
@@ -44,6 +45,9 @@ module.exports = {
   },
   production,
   debug,
+  pixel2html,
+  clientId: argv.clientId,
+  projectId: argv.projectId,
   tunnel,
   // Stuff for PurifyCss
   purify: ['./dist/**/*.js', './dist/**/*.html']
