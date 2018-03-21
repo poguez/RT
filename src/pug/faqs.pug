@@ -1,4 +1,10 @@
 extends layouts/layout-primary
 
 block content
-  include faqs/menu
+  #faqs(css-module='faqs.background.color')
+    include faqs/menu
+    include faqs/header
+    include faqs/navigation
+    include faqs/accordion
+    include home/footer
+    include home/copyright
