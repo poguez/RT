@@ -1,10 +1,9 @@
-//- https://www.npmjs.com/package/badger-accordion
 mixin faq (title)
-  div(data-accordion)
-    button
+  div(data-accordion css-module='faqs.accordion.wrapper')
+    button(css-module='faqs.accordion.button')
       span= title
-      div: +svg('caret-down')
-      div: +svg('cross')
+      div(css-module='faqs.accordion.caret'): +svg('caret-accordion')
+      div(css-module='faqs.accordion.close'): +svg('close')
     div
       if block
         block

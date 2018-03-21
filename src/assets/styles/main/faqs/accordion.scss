@@ -1,1 +1,42 @@
 @import '../abstracts/index';
+
+.wrapper {
+  padding: 35px 43px;
+  border-radius: 5px;
+  border: 2px solid #D6DEE5;
+  color: $cool-gray;
+  transition: .3s;
+
+  & + & {
+    margin-top: 26px;
+  }
+}
+
+.button {
+  @include reset-btn;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  svg {
+    display: block;
+    fill: currentColor;
+  }
+
+  span {
+    font-family: $lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: auto;
+  }
+}
+
+.close {
+  display: none;
+}
+
+.caret {
+  display: block;
+}
