@@ -1,5 +1,5 @@
-const accordion = () => {
-  console.log(`Hello from lazy loaded faqs page`)
-}
+import BadgerAccordion from 'badger-accordion'
+
+const accordion = () => new BadgerAccordion('.js-badger-accordion')
 
 export default accordion
