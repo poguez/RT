@@ -1,23 +1,21 @@
 @import '../abstracts/index';
 
 .wrapper {
-  padding: 35px 43px;
+  padding: 35px 42px;
   border-radius: 5px;
   border: 2px solid #D6DEE5;
   color: $cool-gray;
   transition: .3s;
-
-  & + & {
-    margin-top: 26px;
-  }
+  margin-bottom: 26px;
+  overflow: hidden;
 }
 
 .button {
   @include reset-btn;
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
+  text-align: left;
 
   svg {
     display: block;
@@ -30,6 +28,8 @@
     font-size: 16px;
     line-height: 26px;
     margin-right: auto;
+    max-width: 490px;
+    display: block;
   }
 }
 
@@ -39,4 +39,5 @@
 
 .caret {
   display: block;
+  margin-top: 10px;
 }
