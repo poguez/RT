@@ -1,14 +1,12 @@
 //- https://www.npmjs.com/package/badger-accordion
 mixin faq (title)
-  dl.js-badger-accordion
-    dt
-      button.js-badger-accordion-header
-        span= title
-        div: +svg('caret-down')
-        div: +svg('cross')
-    dd.badger-accordion__panel.js-badger-accordion-panel
-      .js-badger-accordion-panel-inner
-        if block
-          block
-        else
-          p Edit this for accordion
+  div(data-accordion)
+    button
+      span= title
+      div: +svg('caret-down')
+      div: +svg('cross')
+    div
+      if block
+        block
+      else
+        p Edit this for accordion

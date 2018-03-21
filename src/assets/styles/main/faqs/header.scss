@@ -1,1 +1,17 @@
 @import '../abstracts/index';
+
+.wrapper {
+  padding-top: 83px;
+  padding-bottom: 26px;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 58px;
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: $lato;
+  font-weight: 700;
+}
