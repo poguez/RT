@@ -1,10 +1,10 @@
 mixin faq (title)
   div(data-accordion css-module='faqs.accordion.wrapper')
-    button(css-module='faqs.accordion.button')
+    button(css-module='faqs.accordion.button' data-trigger)
       span= title
       div(css-module='faqs.accordion.caret'): +svg('caret-accordion')
       div(css-module='faqs.accordion.close'): +svg('close')
-    div
+    div(data-content)
       if block
         block
       else
