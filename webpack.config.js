@@ -37,7 +37,10 @@ const clientId = '0003065'
 const projectId = '0004687'
 
 const normalConfig = {
-  entry: paths.entry,
+  entry: {
+    main: paths.entry,
+    polyfills: paths.polyfills
+  },
   devtool: shouldBeDebugMode ? 'source-map' : 'inline-source-map',
   module: {
     rules: [

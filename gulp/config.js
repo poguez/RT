@@ -33,6 +33,7 @@ module.exports = {
     cssFiles: 'src/assets/styles/main/**/!(_)*.scss',
     cssVendorFile: 'src/assets/styles/vendor/vendor.scss',
     jsMainFile: 'src/assets/js/index.js',
+    polyfills: 'src/assets/js/polyfills.js',
     fontFiles: [
       'src/assets/fonts/**/*'
     ]
