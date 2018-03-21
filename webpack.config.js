@@ -32,7 +32,6 @@ if (shouldBeDebugMode) {
 
 // Making the demo-relationship work...
 const { pixel2html } = config
-const filename = shouldBeDebugMode ? `[name].min.js` : `[name].js`
 
 const clientId = '0003065'
 const projectId = '0004687'
@@ -74,10 +73,11 @@ const normalConfig = {
       }
     ]},
   output: {
-    filename,
-    chunkFilename: filename,
+    filename: '[name].js',
+    chunkFilename: '[name].chunk.js',
     path: paths.output,
     // This needs to reflect with the server so codeSplit works
+    // just for pixel2html demos
     publicPath: pixel2html
       ? `/${clientId}/${projectId}/assets/js/`
       : '/assets/js/'
