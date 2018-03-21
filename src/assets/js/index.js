@@ -12,8 +12,16 @@ asyncFonts({
 
 // Code split per page
 
+// Homepage
 if (document.querySelector('#hero')) {
   import(/* webpackChunkName: "home" */ './home').then(home => {
     home.default()
+  })
+}
+
+// FAQs
+if (document.querySelector('#faqs-page')) {
+  import(/* webpackChunkName: "faqs" */ './faqs').then(faqs => {
+    faqs.default()
   })
 }
