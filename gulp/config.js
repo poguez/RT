@@ -46,8 +46,6 @@ module.exports = {
   production,
   debug,
   pixel2html,
-  clientId: argv.clientId,
-  projectId: argv.projectId,
   tunnel,
   // Stuff for PurifyCss
   purify: ['./dist/**/*.js', './dist/**/*.html']

@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npm install",
     "code": "gulp",
-    "build": "gulp build --prod --pixel2html --clientId='0003065' --projectId='0004687'",
+    "build": "gulp build --prod --pixel2html",
     "build:normal": "gulp build --prod",
     "release": "gulp release --prod",
     "lint:js": "eslint 'src/**/*.js'",
@@ -55,10 +55,6 @@
     "extends": "@pixel2html/eslint-config"
   },
   "yargs": {
-    "short-option-groups": true,
-    "camel-case-expansion": true,
-    "dot-notation": true,
-    "parse-numbers": false,
-    "boolean-negation": true
+    "parse-numbers": false
   }
 }
