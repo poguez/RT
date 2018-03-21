@@ -5,7 +5,8 @@ mixin faq (title)
       div(css-module='faqs.accordion.caret'): +svg('caret-accordion')
       div(css-module='faqs.accordion.close'): +svg('close')
     div(data-content)
-      if block
-        block
-      else
-        p Edit this for accordion
+      div(css-module='faqs.accordion.content')
+        if block
+          block
+        else
+          p Edit this for accordion

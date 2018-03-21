@@ -1,7 +1,6 @@
 @import '../abstracts/index';
 
 .wrapper {
-  padding: 35px 42px;
   border-radius: 5px;
   border: 2px solid #D6DEE5;
   color: $cool-gray;
@@ -10,9 +9,28 @@
   overflow: hidden;
 }
 
+.close {
+  display: none;
+  margin-top: 10px;
+}
+
+.caret {
+  display: block;
+  margin-top: 10px;
+}
+
 .active {
   background: $white;
   color: $black;
+  box-shadow: 0 6px 20px 0 rgba(115,133,159,0.16);
+  border-color: $white;
+  .close {
+    display: block;
+  }
+
+  .caret {
+    display: none;
+  }
 }
 
 .button {
@@ -21,6 +39,7 @@
   justify-content: center;
   width: 100%;
   text-align: left;
+  padding: 35px 42px;
 
   svg {
     display: block;
@@ -38,11 +57,13 @@
   }
 }
 
-.close {
-  display: none;
-}
+.content {
+  padding: 0 42px 35px;
 
-.caret {
-  display: block;
-  margin-top: 10px;
+  font-size: 15px;
+  line-height: 28px;
+
+  p + p {
+    margin-top: 28px;
+  }
 }
