@@ -32,14 +32,7 @@ if (shouldBeDebugMode) {
 
 // Making the demo-relationship work...
 const { pixel2html, clientId, projectId } = config
-
-// We really want this to work...
-const baseJSPath = pixel2html
-  ? `${clientId}/${projectId}/assets/js`
-  : 'assets/js'
-const filename = shouldBeDebugMode
-  ? `${baseJSPath}/[name].min.js`
-  : `${baseJSPath}/[name].js`
+const filename = shouldBeDebugMode ? `[name].min.js` : `[name].js`
 
 const normalConfig = {
   entry: paths.entry,
@@ -81,7 +74,10 @@ const normalConfig = {
     filename,
     chunkFilename: filename,
     path: paths.output,
-    publicPath: '/'
+    // This needs to reflect with the server so codeSplit works
+    publicPath: pixel2html
+      ? `/${clientId}/${projectId}/assets/js/`
+      : '/assets/js/'
   },
   plugins,
   externals: shouldBeDebugMode ? {
