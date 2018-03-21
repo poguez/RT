@@ -36,7 +36,7 @@
 .button {
   @include reset-btn;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   text-align: left;
   padding: 35px 42px;
@@ -51,7 +51,6 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
-    margin-right: auto;
     max-width: 490px;
     display: block;
   }
