@@ -3,6 +3,11 @@
 .header {
   padding-top: 42px;
   padding-bottom: 60px;
+
+  @include breakpoint(desktop) {
+    padding-top: 37px;
+    padding-bottom: 22px;
+  }
 }
 
 .logo {
@@ -10,6 +15,10 @@
   top: 0;
   left: 0;
   display: block;
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
 }
 
 .row {
@@ -22,6 +31,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
 
   li + li {
     margin-left: 30px;
@@ -41,6 +54,10 @@
   justify-content: center;
   margin-left: auto;
   margin-right: 40px;
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
 
   li + li {
     margin-left: 24px;
@@ -66,5 +83,13 @@
 
   svg {
     margin-right: 9px;
+  }
+}
+
+.rndr {
+  display: none;
+  @include breakpoint(desktop) {
+    display: block;
+    margin-right: auto;
   }
 }

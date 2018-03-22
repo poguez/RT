@@ -3,6 +3,14 @@ header(css-module="home.menu.header")
     +svg('logo')
   .container
     div(css-module='home.menu.row')
+      a(css-module="home.menu.rndr" href="/" title="RNDR")
+        +svg('rndr-mobile')
+
+      button(css-module='faqs.menu.toggle')
+        +svg('burger', {
+          'css-module': 'faqs.menu.burger'
+        })
+        span.sr-only Toggle menu
       ul(css-module='home.menu.normal-links')
         li: a(href="#") About
         li: a(href="#") Render Token

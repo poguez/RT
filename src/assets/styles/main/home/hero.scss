@@ -6,19 +6,39 @@
   background-position: bottom;
   background-image: url('../images/hero.png');
   min-height: 760px;
+
+  @include breakpoint(desktop) {
+    background: $white;
+    padding-bottom: 37px;
+    min-height: 550px;
+  }
 }
 
 .row {
   display: flex;
   margin: 0 ($column-gutter / -2);
+
+  @include breakpoint(desktop) {
+    margin: 0;
+    display: block;
+  }
 }
 
 .large {
   @include flex-cols(5.5);
+  @include breakpoint(desktop) {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .rndr {
   margin-bottom: 24px;
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
 }
 
 .small {
@@ -26,6 +46,11 @@
   flex-basis: 450px;
   max-width: 450px;
   padding: 0 ($column-gutter / 2);
+  @include breakpoint(desktop) {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .menu {
@@ -34,6 +59,10 @@
   margin-bottom: 42px;
   font-size: 14px;
   line-height: 28px;
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
 
   li {
     &:first-child {
@@ -54,6 +83,12 @@
   line-height: 26px;
   color: $cool-gray;
   margin-bottom: 5px;
+
+  @include breakpoint(desktop) {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 9px;
+  }
 }
 
 .title {
@@ -61,4 +96,17 @@
   font-weight: 900;
   font-size: 41px;
   line-height: 67px;
+  @include breakpoint(desktop) {
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 19px;
+  }
+}
+
+.dash {
+  display: none;
+  @include breakpoint(desktop) {
+    display: block;
+    margin-bottom: 20px;
+  }
 }
