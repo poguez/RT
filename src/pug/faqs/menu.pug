@@ -4,6 +4,11 @@ header
       div(css-module='home.menu.row')
         a(css-module="faqs.menu.logo" href="/" title="Otoy")
           +svg('rndr')
+
+        button(css-module='faqs.menu.burger')
+          +svg('burger')
+          span.sr-only Toggle menu
+
         ul(css-module='faqs.menu.links')
           li: a(href="#") About
           li: a(href="#") Problems

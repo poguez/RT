@@ -16,3 +16,17 @@
   color: inherit;
   outline: none;
 }
+
+// Desktop First 😭
+@mixin breakpoint($breakpoint) {
+  $value: map-get($breakpoints, $breakpoint);
+
+  @if $value != null {
+    @media (max-width: $value) {
+      @content;
+    }
+  }
+  @else {
+    @error "Sadly #{$breakpoint} does not exist 😩 please check Manila's _settings.scss to know which you can use";
+  }
+}

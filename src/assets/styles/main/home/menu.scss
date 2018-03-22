@@ -60,6 +60,10 @@
   border-radius: 3px;
   padding: 12px 18px;
 
+  @include breakpoint(desktop) {
+    display: none;
+  }
+
   svg {
     margin-right: 9px;
   }

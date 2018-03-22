@@ -45,7 +45,6 @@ $columns--total: 12;
 
 // Breakpoints
 $breakpoints: (
-  tablet      : em(768px, 16),
-  laptop      : em(1024px, 16),
-  desktop     : em(1440px, 16)
+  tablet      : 768px,
+  desktop     : 1024px
 );
