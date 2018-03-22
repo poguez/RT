@@ -1,0 +1,99 @@
+@import '../abstracts/index';
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y: auto;
+  background: $red;
+  color: $white;
+  z-index: 11;
+
+  padding: 40px 0;
+  text-align: center;
+  transition: .3s;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+.container {
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.links {
+  font-size: 18px;
+  line-height: 24px;
+  @include fw(600);
+  margin-top: auto;
+  margin-bottom: auto;
+  li {
+    margin-bottom: 18px;
+  }
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  li + li {
+    margin-left: 25px;
+  }
+
+  [fill] {
+    fill: currentColor;
+  }
+
+  :global .paper {
+    fill: #B0BAC1;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.back {
+  font-size: 15px;
+  line-height: 19px;
+  @include fw(700);
+  display: inline-block;
+  padding: 7px 16px;
+
+  border: 2px solid rgba($white, 0.25);
+  border-radius: 17px;
+}
+
+.close {
+  @include reset-btn;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba($white, 0.25);
+  @include size(34px);
+  border-radius: 50%;
+
+  [fill] {
+    fill: currentColor;
+  }
+}
