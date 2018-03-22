@@ -3,6 +3,25 @@
 .wrapper {
   background: #f0f3f5;
   padding: 26px 0;
+  transition: .4s;
+  visibility: visible;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
+  &.pinned {
+    transform: translateY(0);
+  }
+
+  &.unpinned {
+    transform: translateY(-100%);
+    visibility: hidden;
+  }
 }
 
 .links {
