@@ -41,6 +41,10 @@
   text-align: left;
   padding: 35px 42px;
 
+  @include breakpoint(desktop) {
+    padding: 18px 24px;
+  }
+
   svg {
     display: block;
     fill: currentColor;
@@ -53,6 +57,12 @@
     line-height: 26px;
     max-width: 490px;
     display: block;
+
+    @include breakpoint(desktop) {
+      font-size: 13px;
+      line-height: 21px;
+      max-width: 215px;
+    }
   }
 }
 
@@ -61,6 +71,12 @@
 
   font-size: 15px;
   line-height: 28px;
+
+  @include breakpoint(desktop) {
+    padding: 0 24px 35px;
+    font-size: 14px;
+    line-height: 22px;
+  }
 
   p + p {
     margin-top: 28px;
