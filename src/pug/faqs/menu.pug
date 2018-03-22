@@ -3,10 +3,12 @@ header
     div(css-module="faqs.menu.wrapper")
       div(css-module='home.menu.row')
         a(css-module="faqs.menu.logo" href="/" title="Otoy")
-          +svg('rndr')
+          +svg('rndr-mobile')
 
-        button(css-module='faqs.menu.burger')
-          +svg('burger')
+        button(css-module='faqs.menu.toggle')
+          +svg('burger', {
+            'css-module': 'faqs.menu.burger'
+          })
           span.sr-only Toggle menu
 
         ul(css-module='faqs.menu.links')

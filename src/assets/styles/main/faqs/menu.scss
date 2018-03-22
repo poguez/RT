@@ -1,8 +1,11 @@
 @import '../abstracts/index';
 
 .wrapper {
-  padding-top: 42px;
-  padding-bottom: 42px;
+  padding: 42px 0;
+
+  @include breakpoint(desktop) {
+    padding: 37px 0 29px;
+  }
 }
 
 .logo {
@@ -37,16 +40,28 @@
 }
 
 .divider {
+  @include breakpoint(desktop) {
+    display: none;
+  }
   svg {
     display: block;
     width: 100%;
   }
 }
 
-.burger {
+.toggle {
   display: none;
   @include breakpoint(desktop) {
-    display: block;
     @include reset-btn;
+    display: flex;
+    @include size(34px);
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba($cool-gray, 0.2);
+    border-radius: 50%;
   }
+}
+
+.burger {
+  display: block;
 }

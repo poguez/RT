@@ -24,6 +24,7 @@
     "@pixel2html/eslint-config": "^1.5.0",
     "@pixel2html/pipes": "^2.0.0",
     "babel-loader": "8.0.0-beta.2",
+    "cheerio": "^1.0.0-rc.2",
     "del": "^3.0.0",
     "eslint": "^4.19.0",
     "eslint-loader": "^2.0.0",

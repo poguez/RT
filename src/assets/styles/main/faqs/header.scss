@@ -2,6 +2,9 @@
 
 .wrapper {
   padding-top: 83px;
+  @include breakpoint(desktop) {
+    padding-top: 0;
+  }
 }
 
 .title {
@@ -13,4 +16,13 @@
   text-align: center;
   font-family: $lato;
   font-weight: 700;
+
+  @include breakpoint(desktop) {
+    font-family: $source;
+    font-size: 23px;
+    line-height: 32px;
+    @include fw(600);
+    max-width: 170px;
+  }
+
 }
