@@ -57,11 +57,11 @@
     color: $black;
     display: block;
     width: 100%;
+    border-left: 3px solid #F8B876;
     @include breakpoint(desktop) {
       font-size: 15px;
       line-height: 19px;
       padding: 15px 18px;
-      border-left: 3px solid $red;
     }
     @include placeholder {
       font-size: 18px;
