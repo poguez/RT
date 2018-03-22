@@ -7,6 +7,12 @@
   padding: 33px 19px 40px 40px;
   margin-left: auto;
   margin-bottom: 97px;
+
+  @include breakpoint(desktop) {
+    box-shadow: none;
+    padding: 0;
+    margin-bottom: 32px;
+  }
 }
 
 .title {
@@ -15,6 +21,13 @@
   line-height: 28px;
   font-weight: 700;
   margin-bottom: 11px;
+
+  @include breakpoint(desktop) {
+    font-size: 15px;
+    line-height: 28px;
+    color: $cool-gray;
+    margin-bottom: 16px;
+  }
 }
 
 .text {
@@ -22,11 +35,17 @@
   line-height: 28px;
   color: $cool-gray;
   margin-bottom: 31px;
+  @include breakpoint(desktop) {
+    display: none;
+  }
 }
 
 .input {
   position: relative;
   padding-right: 20px;
+  @include breakpoint(desktop) {
+    padding-right: 19px;
+  }
 
   input {
     @include reset-input;
@@ -38,10 +57,20 @@
     color: $black;
     display: block;
     width: 100%;
+    @include breakpoint(desktop) {
+      font-size: 15px;
+      line-height: 19px;
+      padding: 15px 18px;
+      border-left: 3px solid $red;
+    }
     @include placeholder {
       font-size: 18px;
       line-height: 23px;
       color: $cool-gray;
+      @include breakpoint(desktop) {
+        font-size: 15px;
+        line-height: 19px;
+      }
     }
   }
 
@@ -53,6 +82,9 @@
     background: $red;
     border-radius: 50%;
     color: $white;
+    @include breakpoint(desktop) {
+      @include size(38px);
+    }
 
     svg {
       @include align;
