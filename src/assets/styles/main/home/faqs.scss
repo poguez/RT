@@ -4,6 +4,17 @@
   background: $snow;
   padding: 55px 0;
   text-align: center;
+
+  @include breakpoint(desktop) {
+    padding: 35px 0;
+  }
+}
+
+.desk {
+  margin-right: 5px;
+  @include breakpoint(desktop) {
+    display: none;
+  }
 }
 
 .link {
