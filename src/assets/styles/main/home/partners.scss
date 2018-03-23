@@ -2,24 +2,58 @@
 
 .wrapper {
   padding: 115px 0;
+  @include breakpoint(desktop) {
+    padding: 36px 0;
+    text-align: center;
+  }
 }
 
 .row {
   display: flex;
+
+  @include breakpoint(desktop) {
+    display: block;
+  }
 }
 
 .title {
   font-family: $lato;
   font-size: 19px;
   line-height: 23px;
-  font-weight: 700px;
+  font-weight: 700;
   margin-bottom: 33px;
+
+  @include breakpoint(desktop) {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 900;
+    margin-bottom: 18px;
+  }
+}
+
+.subtitle {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 600;
+
+  @include breakpoint(desktop) {
+    font-size: 23px;
+    line-height: 32px;
+    max-width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
 }
 
 .small {
   flex-basis: percentage(300/1060);
   max-width: percentage(300/1060);
   margin-right: auto;
+  @include breakpoint(desktop) {
+    max-width: 100%;
+    margin: 0;
+  }
 }
 
 .large {
@@ -28,16 +62,35 @@
 
   display: flex;
   margin: 0 -20px;
+
+  @include breakpoint(desktop) {
+    max-width: 295px;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 .partner {
   padding: 0 20px;
+  @include breakpoint(desktop) {
+    padding: 20px 0;
+  }
+}
+
+.partner + .partner {
+  @include breakpoint(desktop) {
+    border-top: 1px solid rgba($black, 0.05);
+  }
 }
 
 .icon {
   margin-bottom: 20px;
   svg {
     display: block;
+    @include breakpoint(desktop) {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 
@@ -67,6 +120,10 @@
 
   display: flex;
   align-items: center;
+
+  @include breakpoint(desktop) {
+    justify-content: center;
+  }
 
   svg {
     margin-left: 5px;
