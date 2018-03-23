@@ -1,0 +1,24 @@
+nav(css-module='faqs.mobile-menu.wrapper')
+  .container(css-module='faqs.mobile-menu.container')
+    div(css-module='faqs.mobile-menu.row')
+      div(css-module='faqs.mobile-menu.header')
+        a(css-module='faqs.mobile-menu.back' href='index' title='Subscribe') Subscribe
+        button(css-module='faqs.mobile-menu.close' data-menu-trigger)
+          +svg('close')
+
+      ul(css-module='faqs.mobile-menu.links')
+        li: a(href="#") About
+        li: a(href="#") Render Token
+        li: a(href="#") The Problem
+        li: a(href="#") Team & Advisors
+        li: a(href="#") Roadmap
+        li: a(href="#") Media Press
+        li: a(href="#") FAQ
+
+      ul(css-module='faqs.mobile-menu.social')
+        li: a(href="#"): +svg('rocket')
+        li: a(href="#"): +svg('twitter')
+        li: a(href="#"): +svg('facebook')
+        li: a(href="#"): +svg('telegram')
+        li: a(href="#"): +svg('reddit')
+        li: a(href="#"): +svg('medium')
