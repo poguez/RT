@@ -21,6 +21,7 @@
   padding: 0 ($column-gutter / 2);
   max-width: percentage(4/12);
   flex-basis: percentage(4/12);
+  position: relative;
 
   display: flex;
   flex-direction: column;
@@ -35,7 +36,6 @@
 
 .intro {
   padding-top: 115px;
-  margin-bottom: 88px;
   max-width: 330px;
   margin-left: auto;
   margin-right: auto;
@@ -65,7 +65,9 @@
 .gpu {
   display: block;
   margin-left: -40px;
-  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .video {
@@ -114,8 +116,7 @@
 }
 
 .copy {
-  padding-top: 550px;
-  padding-bottom: 100px;
+  padding: 100px 0;
   font-size: 15px;
   line-height: 28px;
   max-width: 460px;
