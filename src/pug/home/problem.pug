@@ -1,11 +1,12 @@
 mixin problem({icon, title, copy, img})
   div(css-module='home.problem.problem')
-    div(css-module='home.problem.icon')
-      if img
-        +img(img)
-      else
-        +svg(icon)
-    h3(css-module='home.problem.problem-title')= title
+    div(css-module='home.problem.problem-row')
+      div(css-module='home.problem.icon')
+        if img
+          +img(img)
+        else
+          +svg(icon)
+      h3(css-module='home.problem.problem-title')= title
     p(css-module='home.problem.copy')= copy
 
 section#problem(css-module='home.problem.wrapper')
@@ -39,7 +40,7 @@ section#problem(css-module='home.problem.wrapper')
         copy: "Proof-of-Work in inherently inefficient, leveraging GPU power to solve arbitrary hash functions in order to power the network. We envision a future where GPUs are used for the work that they were designed for, eventually basing this process as the underlying protocol that will power the RNDR network."
       })
       +problem({
-        icon: 'drm',
+        img: 'drm.png',
         title: 'Digital Rights Management',
         copy: "There is no secure universal storage location for artists to store their work and know that it is theirs. Through the blockchain and the ledger-based storage protocol of the RNDR network, artists are able to store and access their designs and creations."
       })

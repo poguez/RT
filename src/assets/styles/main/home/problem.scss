@@ -2,6 +2,9 @@
 
 .wrapper {
   padding: 115px 0 40px;
+  @include breakpoint(desktop) {
+    padding: 36px 0;
+  }
 }
 
 .title {
@@ -10,28 +13,54 @@
   line-height: 23px;
   font-weight: 700;
   margin-bottom: 27px;
+
+  @include breakpoint(desktop) {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 900;
+    margin-bottom: 18px;
+  }
 }
 
 .subtitle {
   font-weight: 600;
   font-size: 32px;
   line-height: 45px;
+
+  @include breakpoint(desktop) {
+    font-size: 23px;
+    line-height: 32px;
+    margin-bottom: 18px;
+  }
 }
 
 .summary {
   font-size: 15px;
   line-height: 28px;
+
+  @include breakpoint(desktop) {
+    margin-bottom: 31px;
+  }
 }
 
 .intro {
   display: flex;
   margin-bottom: 70px;
+
+  @include breakpoint(desktop) {
+    display: block;
+    margin-bottom: 0;
+  }
 }
 
 .small-col {
   flex-basis: percentage(3/8);
   max-width: percentage(3/8);
   margin-right: auto;
+
+  @include breakpoint(desktop) {
+    max-width: 100%;
+  }
 }
 
 .large-col {
@@ -39,14 +68,26 @@
   max-width: percentage(4/8);
   margin-left: auto;
   display: flex;
+
+  @include breakpoint(desktop) {
+    max-width: 100%;
+  }
 }
 
 .dash {
   margin-right: 24px;
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
 }
 
 .divider {
   margin-bottom: 80px;
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
   svg {
     width: 100%;
   }
@@ -56,6 +97,10 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 -30px;
+  @include breakpoint(desktop) {
+    display: block;
+    margin: 0;
+  }
 }
 
 .problem {
@@ -63,11 +108,21 @@
   flex-basis: 50%;
   max-width: 50%;
   margin-bottom: 70px;
+
+  @include breakpoint(desktop) {
+    padding: 0;
+    max-width: 100%;
+    margin: 0;
+  }
 }
 
 .icon {
   @include size(52px);
   margin-bottom: 37px;
+
+  @include breakpoint(desktop) {
+    margin-bottom: 0;
+  }
   svg, img {
     display: block;
   }
@@ -79,6 +134,22 @@
   line-height: 32px;
   font-weight: 700;
   margin-bottom: 21px;
+
+  @include breakpoint(desktop) {
+    margin-bottom: 0;
+    font-size: 19px;
+    line-height: 26px;
+    margin-left: 24px;
+    max-width: 135px;
+  }
+}
+
+.problem-row {
+  @include breakpoint(desktop) {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
 }
 
 .copy {
