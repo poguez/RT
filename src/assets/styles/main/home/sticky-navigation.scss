@@ -5,6 +5,8 @@
   color: $cool-gray;
   transition: .4s;
   visibility: visible;
+
+  padding: 20px 0;
 }
 
 .sticky {
@@ -33,6 +35,10 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 19px;
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
 
   li + li {
     margin-left: 20px;
@@ -103,8 +109,30 @@
   border-radius: 3px;
   border: 2px solid rgba($cool-gray, 0.2);
   transition: 0.3s;
+  @include breakpoint(desktop) {
+    display: none;
+  }
 
   &:focus, &:hover {
     border-color: rgba($cool-gray, 0.8);
   }
+}
+
+.toggle {
+  display: none;
+  @include breakpoint(desktop) {
+    @include reset-btn;
+    display: flex;
+    @include size(34px);
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba($cool-gray, 0.2);
+    border-radius: 50%;
+    margin-left: auto;
+  }
+}
+
+.burger {
+  display: block;
+  fill: currentColor;
 }

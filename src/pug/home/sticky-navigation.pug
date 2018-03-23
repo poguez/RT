@@ -15,3 +15,7 @@ nav(css-module='home.sticky-navigation.wrapper' data-gumshoe-header)
 
       div
         button(css-module='home.sticky-navigation.subscribe') Subscribe
+
+      button(css-module='home.sticky-navigation.toggle')
+        +svg('burger', {'css-module': 'home.sticky-navigation.burger'})
+        span.sr-only Toggle menu
