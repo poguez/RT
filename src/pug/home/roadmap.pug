@@ -5,17 +5,22 @@ section#roadmap(css-module='home.roadmap.wrapper')
 
     div(css-module='home.roadmap.first-box')
       include roadmap/one
+      +svg('vertical-line', { 'css-module': 'home.roadmap.line' })
 
     div(css-module='home.roadmap.row')
       div(css-module='home.roadmap.box-col')
         div(css-module='home.roadmap.two')
           include roadmap/two
-        div
+          +svg('vertical-line', { 'css-module': 'home.roadmap.line' })
+        div(css-module='home.roadmap.desk-only')
           include roadmap/four
       div(css-module='home.roadmap.timeline-col')
         +svg('timeline')
       div(css-module='home.roadmap.box-col')
         div(css-module='home.roadmap.three')
           include roadmap/three
+          +svg('vertical-line', { 'css-module': 'home.roadmap.line' })
+        div(css-module='home.roadmap.mobile-only')
+          include roadmap/four
 
   +img('close.png', 'home.roadmap.gears-stuck')

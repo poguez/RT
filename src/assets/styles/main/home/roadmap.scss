@@ -106,3 +106,24 @@
     margin: 0;
   }
 }
+
+.mobile-only {
+  display: none;
+  @include breakpoint(desktop) {
+    display: block;
+  }
+}
+
+.desk-only {
+  @include breakpoint(desktop) {
+    display: none;
+  }
+}
+
+.line {
+  display: none;
+  @include breakpoint(desktop) {
+    display: block;
+    margin: 20px auto;
+  }
+}
