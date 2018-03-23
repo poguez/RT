@@ -3,20 +3,63 @@
 .distribution {
   display: flex;
   margin: 0 ($column-gutter / -2);
+
+  @include breakpoint(desktop) {
+    display: block;
+    margin: 0;
+  }
 }
 
 .row {
   display: flex;
   margin: 0 -10px;
+
+  @include breakpoint(desktop) {
+    display: block;
+    margin: 0;
+  }
 }
 
 .hafu {
   padding: 0 10px;
   flex-basis: 50%;
   max-width: 50%;
+  @include breakpoint(desktop) {
+    padding: 0;
+    max-width: 100%;
+  }
 
   svg {
     display: block;
     width: 100%;
+  }
+}
+
+.render {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 600;
+
+  @include breakpoint(desktop) {
+    margin-bottom: 32px;
+    font-size: 23px;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+
+.desk-title {
+  composes: render;
+  @include breakpoint(desktop) {
+    display: none;
+  }
+}
+
+.mobile-title {
+  composes: render;
+  display: none;
+  @include breakpoint(desktop) {
+    display: block;
+    margin-top: 50px;
   }
 }
