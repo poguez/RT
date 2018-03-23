@@ -5,6 +5,10 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 -57px 27px;
+
+  @include breakpoint(desktop) {
+    margin: 0 -15px;
+  }
 }
 
 .advisor {
@@ -12,6 +16,13 @@
   max-width: 275px;
   padding: 0 57px;
   margin-bottom: 55px;
+
+  @include breakpoint(desktop) {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    margin-bottom: 25px;
+  }
 
   button {
     @include reset-btn;
@@ -24,6 +35,11 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 27px;
+
+    @include breakpoint(desktop) {
+      @include size(77px);
+      margin-bottom: 14px;
+    }
   }
 
   h4 {
@@ -32,6 +48,11 @@
     line-height: 19px;
     font-weight: 700;
     margin-bottom: 5px;
+    @include breakpoint(desktop) {
+      font-size: 15px;
+      line-height: 18px;
+      margin-bottom: 4px;
+    }
   }
 
   p {
@@ -39,5 +60,9 @@
     font-size: 13px;
     line-height: 16px;
     font-weight: 700;
+    @include breakpoint(desktop) {
+      font-size: 11px;
+      line-height: 18px;
+    }
   }
 }

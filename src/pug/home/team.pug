@@ -5,7 +5,12 @@ section#team(css-module='home.team.wrapper')
     include team/founders
     include team/advisors
 
-    h4(css-module='home.team.subtitle') And the core team.
-    include team/core
-    h4(css-module='home.team.subtitle') People handling community outrearch.
-    include team/commies
+    div(css-module='home.team.uncool')
+      h4(css-module='home.team.subtitle') And the core team.
+      include team/core
+      h4(css-module='home.team.subtitle') People handling community outrearch.
+      include team/commies
+
+  button(css-module='home.team.rest')
+    span Rest of the team
+    +svg('arrow-right')
