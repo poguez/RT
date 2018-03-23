@@ -6,7 +6,9 @@
   transition: .4s;
   visibility: visible;
 
-  padding: 20px 0;
+  @include breakpoint(desktop) {
+    padding: 20px 0;
+  }
 }
 
 .sticky {
