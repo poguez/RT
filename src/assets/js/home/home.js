@@ -3,6 +3,7 @@ import video from './video';
 import team from './team'
 import roadmap from './roadmap'
 import problem from './problem'
+import burger from './burger'
 
 const home = () => {
   navigation()
@@ -10,6 +11,7 @@ const home = () => {
   team()
   roadmap()
   problem()
+  burger()
 }
 
 export default home
