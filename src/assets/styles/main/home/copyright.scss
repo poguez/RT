@@ -3,6 +3,9 @@
 .wrapper {
   padding-bottom: 42px;
   color: $cool-gray;
+  @include breakpoint(desktop) {
+    padding: 36px 0;
+  }
 }
 
 .divider {
@@ -11,6 +14,10 @@
     display: block;
     width: 100%;
   }
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
 }
 
 .row {
@@ -18,8 +25,15 @@
   justify-content: space-between;
   font-size: 12px;
   line-height: 16px;
+  position: relative;
 }
 
 .right {
   text-align: right;
+}
+
+.logo {
+  @include breakpoint(desktop) {
+    @include align;
+  }
 }
