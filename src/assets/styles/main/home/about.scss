@@ -3,6 +3,10 @@
 .wrapper {
   padding-top: 100px;
   padding-bottom: 116px;
+  @include breakpoint(desktop) {
+    padding-top: 48px;
+    padding-bottom: 40px;
+  }
 }
 
 .title {
@@ -23,16 +27,28 @@
 .row {
   display: flex;
   margin: 0 -30px 70px;
+  @include breakpoint(desktop) {
+    margin: 0;
+    display: block;
+  }
 }
 
 .column {
   padding: 0 30px;
   flex-basis: 50%;
   max-width: 50%;
+  @include breakpoint(desktop) {
+    text-align: center;
+    max-width: 100%;
+    padding: 0;
+  }
 
   p {
     font-size: 15px;
     line-height: 28px;
+    @include breakpoint(desktop) {
+      display: none;
+    }
   }
 
   p + p {
@@ -45,15 +61,42 @@
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 2px;
+  @include breakpoint(desktop) {
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 32px;
+  }
 }
 
 .dash {
   margin-bottom: 13px;
+  @include breakpoint(desktop) {
+    display: none;
+  }
 }
 
 .divider {
   margin-bottom: 70px;
   svg {
     width: 100%;
+  }
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
+}
+
+.more {
+  display: none;
+  @include breakpoint(desktop) {
+    @include reset-btn();
+    @include fw(700);
+    font-size: 15px;
+    line-height: 19px;
+    display: inline-block;
+    background: $red;
+    color: $white;
+    padding: 8px 18px 9px;
+    border-radius: 20px;
   }
 }
