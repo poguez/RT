@@ -3,7 +3,7 @@ import { home } from 'styles'
 
 const problem = () =>
   tinySlider({
-    container: home.problem.problems
+    container: `.${home.problem.problems}`
   })
 
 export default problem
