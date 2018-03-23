@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="315" height="125" viewBox="0 0 315 125">
+  <defs>
+    <circle id="flowchart-a" cx="5" cy="5" r="5"/>
+    <circle id="flowchart-b" cx="5" cy="5" r="5"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(114 110)">
+      <g stroke="#90A4B3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(82 6)">
+        <path d="M0.000122070312,5.00427246 L5,0"/>
+        <polyline points="1 0 5 0 5 4"/>
+      </g>
+      <text fill="#90A4B3" font-family="SourceSansPro-Black, Source Sans Pro" font-size="12" font-weight="700">
+        <tspan x=".712" y="12">Tap to expand</tspan>
+      </text>
+    </g>
+    <rect width="147" height="94" x="84" fill="#E62249" rx="5"/>
+    <text fill="#FFF" font-family="SourceSansPro-Black, Source Sans Pro" font-size="14" font-weight="700">
+      <tspan x="105.882" y="40">Render Network </tspan> <tspan x="125.44" y="61">Flowchart</tspan>
+    </text>
+    <rect width="40" height="24" x="275" y="35" fill="#90A4B3" rx="12"/>
+    <rect width="40" height="24" y="35" fill="#90A4B3" rx="12"/>
+    <g transform="translate(239 42)">
+      <path stroke="#C9D5DE" stroke-linecap="round" stroke-width="2" d="M0,1 L28,1" transform="translate(0 4)"/>
+      <g transform="translate(9)">
+        <use fill="#F3B65E" xlink:href="#flowchart-a"/>
+        <circle cx="5" cy="5" r="6" stroke="#F0F3F5" stroke-width="2"/>
+        <circle cx="5" cy="5" r="4" fill="#CD984B"/>
+      </g>
+    </g>
+    <g transform="translate(48 42)">
+      <path stroke="#C9D5DE" stroke-linecap="round" stroke-width="2" d="M0,1 L28,1" transform="translate(0 4)"/>
+      <g transform="translate(9)">
+        <use fill="#F3B65E" xlink:href="#flowchart-b"/>
+        <circle cx="5" cy="5" r="6" stroke="#F0F3F5" stroke-width="2"/>
+        <circle cx="5" cy="5" r="4" fill="#CD984B"/>
+      </g>
+    </g>
+    <path stroke="#C9D5DE" stroke-linecap="round" stroke-width="2" d="M76 83L30 83C24.4771525 83 20 78.5228475 20 73L20 67M295 67L295 73C295 78.5228475 290.522847 83 285 83L239 83M239 11L285 11C290.522847 11 295 15.4771525 295 21L295 27M20 27L20 21C20 15.4771525 24.4771525 11 30 11L76 11"/>
+  </g>
+</svg>

@@ -3,6 +3,9 @@
 .wrapper {
   background: $snow;
   padding-top: 115px;
+  @include breakpoint(desktop) {
+    padding-top: 36px;
+  }
 }
 
 .intro {
@@ -12,12 +15,23 @@
   margin-bottom: 67px;
   text-align: center;
 
+  @include breakpoint(desktop) {
+    margin-bottom: 34px;
+  }
+
   h6 {
     font-size: 19px;
     line-height: 23px;
     font-family: $lato;
     font-weight: 700;
     margin-bottom: 33px;
+
+    @include breakpoint(desktop) {
+      font-size: 15px;
+      line-height: 18px;
+      font-weight: 900;
+      margin: 18px;
+    }
   }
 
   h4 {
@@ -25,23 +39,56 @@
     font-size: 32px;
     line-height: 45px;
     margin-bottom: 31px;
+
+    @include breakpoint(desktop) {
+      font-size: 23px;
+      line-height: 32px;
+      margin-bottom: 15px;
+    }
   }
 
   p {
     font-size: 18px;
     line-height: 28px;
     font-weight: 600;
+
+    @include breakpoint(desktop) {
+      font-size: 14px;
+      line-height: 22px;
+      max-width: 295px;
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
 }
 
 .infographic {
   margin-bottom: 66px;
 
+  @include breakpoint(desktop) {
+    display: none;
+  }
+
   svg {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.trigger {
+  display: none;
+  @include breakpoint(desktop) {
+    @include reset-btn;
+    display: block;
+  }
+}
+
+.flowchart {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 34px;
 }
 
 .copy {
@@ -52,26 +99,51 @@
   margin-right: auto;
   margin-bottom: 84px;
   text-align: center;
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
 }
 
 .row {
   display: flex;
+
+  @include breakpoint(desktop) {
+    display: block;
+  }
 }
 
 .sectors {
   margin-right: 80px;
   text-align: right;
+
+  @include breakpoint(desktop) {
+    text-align: center;
+    margin: 0;
+  }
   h5 {
     width: 180px;
     font-size: 19px;
     line-height: 30px;
     font-weight: 700;
+
+    @include breakpoint(desktop) {
+      font-weight: 900;
+      font-size: 15px;
+      line-height: 18px;
+      width: 100%;
+      margin-bottom: 26px;
+    }
   }
 }
 
 .icons {
   display: flex;
   flex-wrap: wrap;
+
+  @include breakpoint(desktop) {
+    justify-content: center;
+  }
 }
 
 .sector {
@@ -80,10 +152,22 @@
   justify-content: center;
   margin-right: 80px;
   margin-bottom: 43px;
+
+  @include breakpoint(desktop) {
+    flex-direction: column;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 16px;
+    height: 52px;
+    flex-basis: percentage(1/3);
+  }
 }
 
 .sector-icon {
   margin-right: 12px;
+  @include breakpoint(desktop) {
+    margin-right: 0;
+  }
 
   svg {
     display: block;
@@ -96,4 +180,11 @@
   font-family: $lato;
   font-size: 13px;
   line-height: 27px;
+
+  @include breakpoint(desktop) {
+    font-size: 13px;
+    line-height: 27px;
+    font-weight: 900;
+    margin-top: auto;
+  }
 }
