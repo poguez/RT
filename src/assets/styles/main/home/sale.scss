@@ -3,4 +3,7 @@
 .wrapper {
   background: $snow;
   padding: 115px 0;
+  @include breakpoint(desktop) {
+    padding: 36px 0;
+  }
 }

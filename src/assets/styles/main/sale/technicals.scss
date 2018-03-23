@@ -3,6 +3,11 @@
 .row {
   display: flex;
   margin: 0 ($column-gutter / -2) 80px;
+
+  @include breakpoint(desktop) {
+    display: block;
+    margin: 0;
+  }
 }
 
 .small-col {
@@ -11,6 +16,11 @@
   max-width: percentage(3/12);
   margin-right: auto;
   text-align: right;
+  @include breakpoint(desktop) {
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+  }
 }
 
 .large-col {
@@ -18,6 +28,10 @@
   flex-basis: percentage(8/12);
   max-width: percentage(8/12);
   margin-left: auto;
+  @include breakpoint(desktop) {
+    max-width: 100%;
+    padding: 0;
+  }
 }
 
 .title {
@@ -26,12 +40,24 @@
   line-height: 23px;
   font-weight: 700;
   margin-bottom: 33px;
+
+  @include breakpoint(desktop) {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 18px;
+  }
 }
 
 .render {
   font-size: 32px;
   line-height: 45px;
   font-weight: 600;
+
+  @include breakpoint(desktop) {
+    margin-bottom: 32px;
+    font-size: 23px;
+    line-height: 32px;
+  }
 }
 
 .table {
@@ -39,6 +65,12 @@
   padding: 30px 0;
   margin: 0 -10px;
   border-top: 2px solid rgba($black, 0.05);
+
+  @include breakpoint(desktop) {
+    padding: 21px 0;
+    margin: 0;
+    display: block;
+  }
 
   &:last-child {
     border-bottom: 2px solid rgba($black, 0.05);
@@ -50,11 +82,21 @@
   max-width: percentage(2/8);
   padding: 0 10px;
 
+  @include breakpoint(desktop) {
+    max-width: 100%;
+    padding: 0;
+  }
+
   h6 {
     font-size: 18px;
     line-height: 28px;
     font-weight: 600;
     max-width: 112px;
+
+    @include breakpoint(desktop) {
+      font-size: 15px;
+      max-width: 100%;
+    }
   }
 }
 
@@ -62,11 +104,19 @@
   flex-basis: percentage(6/8);
   max-width: percentage(6/8);
   padding: 0 10px;
+
+  @include breakpoint(desktop) {
+    max-width: 100%;
+    padding: 0;
+  }
 }
 
 .copy {
   font-size: 18px;
   line-height: 28px;
+  @include breakpoint(desktop) {
+    font-size: 15px;
+  }
 }
 
 .intro {
