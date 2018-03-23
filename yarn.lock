@@ -8092,6 +8092,10 @@ timers-ext@^0.1.2:
     es5-ext "~0.10.14"
     next-tick "1"
 
+tiny-slider@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/tiny-slider/-/tiny-slider-2.6.0.tgz#3e80023ac3e615fa5cad0f1d06919f8d9bd3c1f8"
+
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
