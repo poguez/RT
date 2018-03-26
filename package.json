@@ -26,7 +26,7 @@
     "babel-loader": "8.0.0-beta.2",
     "cheerio": "^1.0.0-rc.2",
     "del": "^3.0.0",
-    "eslint": "^4.19.0",
+    "eslint": "^4.19.1",
     "eslint-loader": "^2.0.0",
     "fontfaceobserver": "^2.0.13",
     "fs-path": "^0.0.24",
@@ -42,7 +42,7 @@
     "smooth-scroll": "^12.1.5",
     "tiny-slider": "^2.6.0",
     "uglifyjs-webpack-plugin": "^1.2.4",
-    "webpack": "^4.1.1",
+    "webpack": "^4.2.0",
     "whatwg-fetch": "^2.0.3",
     "yargs": "^11.0.0",
     "youtube-player": "^5.5.0"
