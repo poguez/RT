@@ -10,3 +10,6 @@ mixin svg(filename, ...attributes)
 
 mixin img(name, module, alt)
   img(src=`assets/images/${name}` css-module=module alt= alt ? alt : 'An image')
+
+mixin link(url)
+  a(href=url)= url

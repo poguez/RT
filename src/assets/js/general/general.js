@@ -1,5 +1,6 @@
 import asyncFonts from '../tools/async-fonts'
 import gtm from './gtm'
+import smoothScroll from './smooth-scroll'
 
 const general = () => {
   asyncFonts({
@@ -10,6 +11,8 @@ const general = () => {
   asyncFonts({
     observer: 'Lato'
   })
+
+  smoothScroll()
 
   gtm()
 }
