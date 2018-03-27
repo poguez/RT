@@ -1,10 +1,13 @@
 header(css-module="home.menu.header")
-  a(css-module="home.menu.logo" href="/" title="Otoy")
+  a(css-module="home.menu.logo" href="index" title="Otoy")
     +svg('logo')
   .container
     div(css-module='home.menu.row')
-      a(css-module="home.menu.rndr" href="/" title="RNDR")
+      a(css-module="home.menu.rndr" href="index" title="Otoy")
         +svg('rndr-mobile')
+
+      a(href='index' title='Otoy' css-module='home.menu.tight')
+        +svg('otoy-standalone')
 
       button(css-module='faqs.menu.toggle' data-menu-trigger)
         +svg('burger', {

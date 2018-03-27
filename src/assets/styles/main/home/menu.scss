@@ -21,6 +21,18 @@
   }
 }
 
+.tight {
+  display: none;
+  @include breakpoint(hd) {
+    display: block;
+    margin-right: auto;
+  }
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
+}
+
 .row {
   display: flex;
   align-items: center;
@@ -31,6 +43,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: auto;
 
   @include breakpoint(desktop) {
     display: none;
@@ -55,7 +68,7 @@
   margin-left: auto;
   margin-right: 40px;
 
-  @include breakpoint(desktop) {
+  @include breakpoint(laptop) {
     display: none;
   }
 
