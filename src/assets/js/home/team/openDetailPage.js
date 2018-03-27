@@ -2,7 +2,7 @@ import loopQuery from '../../tools/loopQuery'
 import { team } from 'styles'
 import { details } from './helpers'
 
-// import renderMember from './renderMember'
+import renderMember from './renderMember'
 
 const openDetailPage = () => {
   const { detail } = team
@@ -11,7 +11,7 @@ const openDetailPage = () => {
     button.addEventListener('click', event => {
       document.body.classList.add(detail.frozen)
       details.classList.add(detail.active)
-      // renderMember(index)
+      renderMember(index)
     })
   })
 }
