@@ -16,7 +16,7 @@
   left: 0;
   display: block;
 
-  @include breakpoint(desktop) {
+  @include breakpoint(hd) {
     display: none;
   }
 }

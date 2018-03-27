@@ -43,8 +43,4 @@ $sexy-transition: $trns-duration $sexy-bezier;
 $column-gutter: 20px;
 $columns--total: 12;
 
-// Breakpoints
-$breakpoints: (
-  tablet      : 768px,
-  desktop     : 1024px
-);
+@import 'breakpoints';

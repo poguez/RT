@@ -3,7 +3,7 @@
 .wrapper {
   padding-bottom: 72px;
   @include std-background;
-  background-position: bottom;
+  background-position: bottom 110px;
   background-image: url('../images/hero.png');
   min-height: 760px;
 

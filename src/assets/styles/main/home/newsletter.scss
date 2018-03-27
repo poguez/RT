@@ -58,7 +58,7 @@
     color: $black;
     display: block;
     width: 100%;
-    border-left: 3px solid #F8B876;
+    border-left: 3px solid $red;
     @include breakpoint(desktop) {
       font-size: 15px;
       line-height: 19px;

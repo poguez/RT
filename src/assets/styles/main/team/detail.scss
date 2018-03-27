@@ -21,6 +21,12 @@
   pointer-events: none;
   visibility: hidden;
   overflow-y: auto;
+
+  @include breakpoint(desktop) {
+    background: $white;
+    padding-top: 80px;
+    margin-bottom: 40px;
+  }
 }
 
 .active {
@@ -43,8 +49,44 @@
   font-family: $lato;
   font-weight: 700;
 
+  @include breakpoint(desktop) {
+    color: $black;
+    top: 40px;
+    left: initial;
+    right: 40px;
+    @include size(34px);
+    border: 2px solid #F0F3F5;
+    border-radius: 50%;
+  }
+
   svg {
     margin-right: 11px;
+    fill: currentColor;
+    @include breakpoint(desktop) {
+      @include align;
+    }
+  }
+
+  span {
+    @include breakpoint(desktop) {
+      display: none;
+    }
+  }
+}
+
+.top-title {
+  display: none;
+  @include breakpoint(desktop) {
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 900;
+    font-family: $lato;
+    padding-left: 15px;
+    border-left: 2px solid;
+    position: absolute;
+    top: 50px;
+    left: 40px;
   }
 }
 
@@ -59,12 +101,26 @@
 .info {
   padding: 144px 60px 50px;
   position: relative;
+  @include breakpoint(desktop) {
+    padding: 40px 20px 30px;
+  }
 }
 
 .pic {
   @include size(220px);
   @include align(horizontal);
   top: -110px;
+
+  @include breakpoint(desktop) {
+    position: relative;
+    @include size(169px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 34px;
+    transform: none;
+    top: initial;
+    left: initial;
+  }
 
   img {
     display: block;
@@ -136,6 +192,10 @@
   border-top: 2px solid rgba($black, 0.05);
   transition: .3s;
 
+  @include breakpoint(desktop) {
+    padding: 32px 40px;
+  }
+
   &:hover, &:focus {
     background: #F4F4F5;
   }
@@ -198,6 +258,7 @@
 
   svg {
     @include size(10px);
+    fill: currentColor;
   }
 
   [stroke] {
