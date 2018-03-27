@@ -28,6 +28,10 @@
 }
 
 .media {
+  a {
+    display: block;
+  }
+
   svg, img {
     display: block;
     margin-left: auto;
