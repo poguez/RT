@@ -1,12 +1,12 @@
 header(css-module="home.menu.header")
-  a(css-module="home.menu.logo" href="index" title="Otoy")
+  a(css-module="home.menu.logo" href="https://home.otoy.com/" title="Otoy")
     +svg('logo')
   .container
     div(css-module='home.menu.row')
       a(css-module="home.menu.rndr" href="index" title="Otoy")
         +svg('rndr-mobile')
 
-      a(href='index' title='Otoy' css-module='home.menu.tight')
+      a(href='https://home.otoy.com/' title='Otoy' css-module='home.menu.tight')
         +svg('otoy-standalone')
 
       button(css-module='faqs.menu.toggle' data-menu-trigger)
@@ -22,11 +22,11 @@ header(css-module="home.menu.header")
         li: a(href='#roadmap') Roadmap
 
       ul(css-module='home.menu.social')
-        li: a(href="#"): +svg('twitter')
-        li: a(href="#"): +svg('facebook')
-        li: a(href="#"): +svg('telegram')
-        li: a(href="#"): +svg('reddit')
-        li: a(href="#"): +svg('medium')
+        li: a(href="https://twitter.com/rendertoken"): +svg('twitter')
+        li: a(href="https://www.facebook.com/OTOY"): +svg('facebook')
+        li: a(href="https://www.t.me/rendertoken"): +svg('telegram')
+        li: a(href="https://www.reddit.com/r/RenderToken/"): +svg('reddit')
+        li: a(href="https://medium.com/render-token"): +svg('medium')
 
       a(href="#" title="Launch Rocket Chat" css-module="home.menu.cta")
         +svg('rocket')
