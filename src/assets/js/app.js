@@ -1,15 +1,8 @@
-// General Code for all pages
-import asyncFonts from './tools/async-fonts'
+import general from './general'
 
 const app = () => {
-  asyncFonts({
-    href: 'https://fonts.googleapis.com/css?family=Lato:700,900|Source+Sans+Pro:400,400i,600,700,900',
-    observer: 'Source Sans Pro'
-  })
-
-  asyncFonts({
-    observer: 'Lato'
-  })
+  // General Code for all pages
+  general()
 
   // Code split per page
 
