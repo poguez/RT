@@ -72,6 +72,11 @@
     object-fit: cover;
     border-radius: 5px;
   }
+
+  svg {
+    display: block;
+    @include size(100%);
+  }
 }
 
 .name {

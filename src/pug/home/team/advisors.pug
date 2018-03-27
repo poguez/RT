@@ -6,12 +6,15 @@ mixin advisor({img, name, title})
       else
         +svg('avatar')
       h4= name
-      p= title
+      h5= title
 
       div(css-module='team.founders.info')
-        p Alissa sets the strategic direction of OTOY and leads all operations. For nearly a decade, her passion has been to take the genius of OTOY’s patents and research and bring them to the mass market. She spearheads the company's activities worldwide and drives all partnerships, financings, and acquisitions.
-        p In the last 18 months alone, Alissa led key deals with Facebook and Unity to bring OTOY’s technology to billions of consumers. She also closed strategic partnerships with HBO, Disney, Discovery Communications, Mattel, Liberty Media and Madison Square Garden Group.
-        p Prior to OTOY, Alissa started a venture fund with technology writer, George Gilder, which invested in startup and mid-stage technology companies. Alissa graduated Magna Cum Laude from Georgetown University.
+        if block
+          block
+        else
+          p Alissa sets the strategic direction of OTOY and leads all operations. For nearly a decade, her passion has been to take the genius of OTOY’s patents and research and bring them to the mass market. She spearheads the company's activities worldwide and drives all partnerships, financings, and acquisitions.
+          p In the last 18 months alone, Alissa led key deals with Facebook and Unity to bring OTOY’s technology to billions of consumers. She also closed strategic partnerships with HBO, Disney, Discovery Communications, Mattel, Liberty Media and Madison Square Garden Group.
+          p Prior to OTOY, Alissa started a venture fund with technology writer, George Gilder, which invested in startup and mid-stage technology companies. Alissa graduated Magna Cum Laude from Georgetown University.
 
 div(css-module='team.advisors.row')
   +advisor({
@@ -23,6 +26,7 @@ div(css-module='team.advisors.row')
     name: 'J.J. Abrams',
     title: 'Chairman & CEO @ Bad Robot Productions'
   })
+    p JJ Abrams is top tier
   +advisor({
     img: 'brendan.png',
     name: 'Brendan Eich',
