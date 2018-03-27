@@ -33,7 +33,7 @@
   display: none;
   @include breakpoint(desktop) {
     display: block;
-    max-width: 100%;
+    max-width: 295px;
     margin-left: auto;
     margin-right: auto;
   }
