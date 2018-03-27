@@ -1,7 +1,7 @@
 mixin commie({img, name, title})
   div(css-module='team.core.core')
     if img
-      +img(img)
+      +img(img, 'team.core.rounded')
     else
       +svg('avatar-round')
     h4= name
@@ -15,7 +15,8 @@ mixin commie({img, name, title})
 div(css-module='team.core.row')
   +commie({
     name: 'Patrick Frigg',
-    title: 'Moderator'
+    title: 'Moderator',
+    img: 'patrick.png'
   })
   +commie({
     name: 'Janne Saviranta',
@@ -23,13 +24,16 @@ div(css-module='team.core.row')
   })
   +commie({
     name: 'Tony Morella',
-    title: 'Moderator'
+    title: 'Moderator',
+    img: 'tony.jpg'
   })
   +commie({
     name: 'Julio Alvarez',
-    title: 'Moderator'
+    title: 'Marketing',
+    img: 'julio.jpg'
   })
   +commie({
     name: 'Pablo Wilner',
-    title: 'Moderator'
+    title: 'Marketing',
+    img: 'pablo.jpg'
   })
